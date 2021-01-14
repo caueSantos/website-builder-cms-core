@@ -1,0 +1,1 @@
+{include file=$CAMINHO_TPL|cat:'blocos/global/styles.tpl'}

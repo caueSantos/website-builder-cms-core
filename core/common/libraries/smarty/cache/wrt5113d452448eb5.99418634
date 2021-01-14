@@ -1,0 +1,192 @@
+<?php /*%%SmartyHeaderCode:161055113d452342d83-19283765%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '054194c150d2f66cb124e2a67a6cf2d366814707' => 
+    array (
+      0 => 'application\\views\\templates\\padrao\\layout.tpl',
+      1 => 1359748248,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '161055113d452342d83-19283765',
+  'variables' => 
+  array (
+    'url' => 0,
+    'title' => 0,
+    'css_files' => 0,
+    'arq' => 0,
+    'css' => 0,
+    'js_files' => 0,
+    'topo' => 0,
+    'menu' => 0,
+    'content' => 0,
+    'rodape' => 0,
+    'plugins' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_5113d4524459e4_15730615',
+  'cache_lifetime' => 120,
+),true); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5113d4524459e4_15730615')) {function content_5113d4524459e4_15730615($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <base href="http://localhost:8080/lagesplazahotel.com.br/" />
+        <title>Lages Plaza Hotel</title>
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+                            <link href="css/css2.css" rel="stylesheet" type="text/css">
+                                <link href="http://scripts.landsdigital.com.br/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
+                
+                
+                                    <script src="http://scripts.landsdigital.com.br/swfobject.js" type="text/javascript" ></script>
+                                    <script src="http://scripts.landsdigital.com.br/jquery.js" type="text/javascript" ></script>
+                                    <script src="scripts/landscar2.js" type="text/javascript" ></script>
+                                    <script src="scripts/lands_slide.js" type="text/javascript" ></script>
+                                    <script src="scripts/eventos.js" type="text/javascript" ></script>
+                                    <script src="http://scripts.landsdigital.com.br/jquery-mask.js" type="text/javascript" ></script>
+                                    <script src="http://scripts.landsdigital.com.br/prettyphoto/js/jquery.prettyPhoto.js" type="text/javascript" ></script>
+                                <!--[if lt IE 9]>
+                    <script language="javascript" src="http://scripts.landsdigital.com.br/ie.js"></script>
+                    <![endif]-->
+
+                </head>
+                <body>
+                    <div id="topo100">
+                        <div id="topo">
+                            <div id="topo_chat"><a href="#chat"><img src="imagens/chat_online.png"/></a></div>
+    <div id="topo_reserva"><a href="#reserva"><img src="imagens/bt_reserva.png"/></a></div>
+    <div id="logo">
+      <object id="FlashID" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="286" height="96">
+        <param name="movie" value="flash/anima.swf" />
+        <param name="quality" value="high" />
+        <param name="wmode" value="transparent" />
+        <param name="swfversion" value="17.0.0.0" />
+        <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don?t want users to see the prompt. -->
+        <param name="expressinstall" value="scripts/expressInstall.swf" />
+        <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. --> 
+        <!--[if !IE]>-->
+        <object type="application/x-shockwave-flash" data="flash/anima.swf" width="286" height="96">
+          <!--<![endif]-->
+          <param name="quality" value="high" />
+          <param name="wmode" value="transparent" />
+          <param name="swfversion" value="17.0.0.0" />
+          <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+          <div>
+            <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+            <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/imagens/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+          </div>
+          <!--[if !IE]>-->
+        </object>
+        <!--<![endif]-->
+      </object>
+</div>
+                        </div>
+                    </div>
+                    <div id="menu100">
+                        <div id="menu1">
+                            <div id="menu">
+                                <ul>
+        <li> <a href='inicio'>Início </a> </li>
+        <li> <a href='hotel'>Hotel </a> </li>
+        <li> <a href='apartamentos'>Apartamentos </a> </li>
+        <li> <a href='cafedamanha'>Café da Manhã </a> </li>
+        <li> <a href='fotos'>Fotos </a> </li>
+        <li> <a href='depoimentos'>Depoimentos </a> </li>
+        <li> <a href='promocoes'>Promoções </a> </li>
+        <li> <a href='localizacao'>Localização </a> </li>
+        <li> <a href='contato'>Contato</a> </li>
+      </ul>
+                            </div>
+                            <div class='bt_esquerda'></div>
+                            <div class='bt_direita'></div>
+                        </div>
+                    </div>
+                    <div id="anima100">
+                        <div class='anima_descricao'></div>
+                        <div id="anima">
+                            <div id="anima_imagem" titulo='Suite 1 - Luxo Superior'> <img src="imagens/anima_teste.jpg" /> </div>
+                            <div id="anima_imagem" titulo='Suite 2 - Luxo Superior'> <img src="imagens/anima_teste.jpg" /></div>
+                            <div id="anima_imagem" titulo='Suite 3 - Luxo Superior'> <img src="imagens/anima_teste.jpg" /></div>
+                            <div id="anima_imagem" titulo='Suite 4 - Luxo Superior'> <img src="imagens/anima_teste.jpg" /></div>
+                            <div id="anima_imagem" titulo='Suite 5 - Luxo Superior'> <img src="imagens/anima_teste.jpg" /> </div>
+                        </div>
+                    </div> 
+                    <div id="conteudo100">
+                        <div id="conteudo"> 
+                            Página não encontrada!
+                        </div>
+                    </div>
+                    <div id="rodape100">
+                        <div id="rodape">
+                            <ul>
+      <li> <a href='inicio'>Início </a> </li>
+      <li> <a href='hotel'>Hotel </a> </li>
+      <li> <a href='apartamentos'>Apartamentos </a> </li>
+      <li> <a href='cafedamanha'>Café da Manhã </a> </li>
+      <li> <a href='fotos'>Fotos </a> </li>
+      <li> <a href='depoimentos'>Depoimentos </a> </li>
+      <li> <a href='promocoes'>Promoções </a> </li>
+      <li> <a href='localizacao'>Localização </a> </li>
+      <li> <a href='contato'>Contato</a> </li>
+</ul>
+<div id="redes_sociais">
+      <ul id='redes_sociais_icones'>
+        <li>Siga-nos</li>
+        <li><a href="www.facebook.com"><img src="imagens/facebook.png"></a></li>
+        <li><a href="https://twitter.com/"><img src="imagens/twitter.png" ></a></li>
+      </ul>
+</div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+$(document).ready(function(e) { 
+$('#anima').landscar({
+         div:'#anima',
+	 botao1:'.bt_esquerda',
+	 botao2:'.bt_direita',
+	 porvez:'1',
+	 timer:true,
+	 marcadores:false
+});
+
+$('#caixa_inicio1_mascara2').landscar({
+     div:'#caixa_inicio1_mascara2',
+	 botao1:'.seta_e',
+	 botao2:'.seta_d',
+	 porvez:'3',
+	 timer:true,
+	 marcadores:false
+}
+); 
+$('#imagens_apartamentos_embala2').landscar({
+     div:'#imagens_apartamentos_embala2',
+	 botao1:'.imagens_apartamentos_seta_e',
+	 botao2:'.imagens_apartamentos_seta_d',
+	 porvez:'4',
+	 marcadores:false
+}
+);
+
+$('.fotos_hotel').lands_slide({
+	div:'.fotos_hotel',
+	titulo:true,
+	titulo_div:'.fotos_titulo',
+	marcadores:true
+});
+
+$('#caixa_inicio2_imagem span').lands_slide({
+	div:'#caixa_inicio2_imagem span',
+	marcadores:false
+});
+});
+
+</script> 
+
+<script type="text/javascript" charset="utf-8">
+            $(document).ready(function(){
+                $("a[rel^='prettyPhoto']").prettyPhoto();
+});
+</script>
+                </body>
+                </html><?php }} ?>

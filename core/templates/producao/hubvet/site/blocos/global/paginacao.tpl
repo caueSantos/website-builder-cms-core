@@ -1,0 +1,1 @@
+<section class="paginacao text-center">    <nav>        <ul class="pagination">            {$paginacao}        </ul>    </nav></section>

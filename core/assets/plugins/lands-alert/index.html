@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="lands-alert.css" rel="stylesheet" />
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="lands-alert.js"></script>
+    </head>
+    <body>
+        <script>
+            $.landsAlert({
+                titulo: 'Algo deu errado!',
+                texto: 'Não foi possível salvar o evento! Tente novamente!',
+                icone: 'question',
+                botoes: [{
+                    texto: 'Fechar',
+                    onClick: function () {
+                        $.landsAlert().close();
+                    }
+                }]
+            });
+        </script>
+    </body>
+</html>

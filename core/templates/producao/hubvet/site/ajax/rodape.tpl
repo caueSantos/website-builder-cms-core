@@ -1,0 +1,1 @@
+{include file=$CAMINHO_TPL|cat:'componentes/popup.tpl'}{include file=$CAMINHO_TPL|cat:'blocos/global/rodape.tpl'}

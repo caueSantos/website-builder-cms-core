@@ -1,0 +1,12 @@
+**********************************************************
+2048 RUNTIME NOTICE - 2014-05-15 16:17:26 (BRT)
+     ARQUIVO: /opt/lands/core_landshosting/common/libraries/smarty.php(Linha 8)
+     MENSAGEM: 
+Declaration of CI_Smarty::assign() should be compatible with Smarty_Internal_Data::assign($tpl_var, $value = NULL, $nocache = false)
+
+**********************************************************
+2048 RUNTIME NOTICE - 2014-05-15 16:17:32 (BRT)
+     ARQUIVO: /opt/lands/core_landshosting/common/libraries/smarty.php(Linha 8)
+     MENSAGEM: 
+Declaration of CI_Smarty::assign() should be compatible with Smarty_Internal_Data::assign($tpl_var, $value = NULL, $nocache = false)
+

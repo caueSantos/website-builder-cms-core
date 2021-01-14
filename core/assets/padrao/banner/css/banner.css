@@ -1,0 +1,157 @@
+div100 {
+      width:100%;
+}
+
+.banner {
+      position:relative;	
+
+      height:370px;
+}
+
+.banner-item {
+      position: absolute;
+      top:0;
+      left:0;
+      opacity:0;
+}
+
+.banner-item img {
+      height:360px;
+}
+
+.banner_fundo{
+
+      height: 360px;
+
+      margin-bottom: 10px;
+      padding:10px;
+
+
+}
+.banner-barra {
+      position: absolute;
+
+      height:41px;
+      bottom:0;
+      left:0;
+}	
+
+.banner-barra-bt {
+      background-color:#fff;
+      border-radius:15px;
+      padding:6px;
+      width:20px;
+      height:22px;
+      cursor:pointer;
+      z-index:1001;
+      float:left;
+
+}
+
+
+.banner-setas {
+      height: 50px;
+      position: absolute;
+      width: 50px;
+}
+
+.banner-setad {
+      cursor:pointer;
+      background-image:url(../imagens/seta_d.png);
+      right:20px;
+      top:45%;
+      z-index:999;
+}
+
+.pause {
+      background:url(../imagens/bt-pause.png) center center no-repeat #fff;
+      border-bottom-right-radius: 0;
+      border-top-right-radius:0;
+}
+
+
+.play {
+      background:url(../imagens/bt-play.png) center center no-repeat #fff;
+      border-bottom-right-radius: 0;
+      border-top-right-radius:0;
+}
+
+.banner-setae {
+      cursor:pointer;
+      background-image:url(../imagens/seta_e.png);
+      top:45%;
+      left:0px;
+      z-index:999;
+}
+
+.marcador {
+      cursor:pointer;
+      float:left;
+      border:1px solid rgb( 239, 242, 224 );
+      border-radius: 50%;
+      margin-left:5px;
+      margin-top:-5px;
+      height:20px;
+      width:20px;
+      background:#fff;
+}
+
+.marcador-ativo {
+      border:1px solid rgb( 239, 242, 224 );
+      border-radius: 50%;
+
+      background-image: -moz-radial-gradient( 50% 50%, circle closest-side, #828282 39%, rgb(255,255,255) 39%);
+      background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, #828282 39%, rgb(255,255,255) 39%);
+      background-image: -ms-radial-gradient( 50% 50%, circle closest-side, #828282 39%, rgb(255,255,255) 39%);
+}
+
+.marcadores {	
+      display:block;
+      width:auto;
+      height:22px;
+      background-color:#f5f7ec;
+      border-radius:15px;
+      border-bottom-left-radius: 0;
+      border-top-left-radius:0;
+      padding:6px;
+      z-index:1000;
+      float:left;
+}
+
+.controle{	
+      position:absolute;
+      display:block;
+      width:auto;
+      height:20px;
+      z-index:1001;
+      left:45%;
+
+}
+
+
+.banner img {
+      width:100%;
+      height:auto;	
+}
+
+
+
+.centraliza {
+
+      margin:auto;
+}
+
+
+
+
+
+
+
+@media all and (max-width: 4000px) and (min-width: 1180px) {
+      .centraliza {
+            width:960px;
+      }
+
+}
+
+/* VEDANA  CARROSSEL */

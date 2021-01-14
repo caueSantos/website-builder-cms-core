@@ -1,0 +1,1 @@
+<script>  window.app = {json_encode($app)};  window.appUrl = '{$app->Url_cliente_linguagem}';  window.whatsappPlugin = {json_encode($whats[0])};  window.utils = {    paginaAtual: '{$pagina_atual}'  };</script>{include file=$CAMINHO_TPL|cat:'blocos/global/scripts.tpl'}{$app->Scripts_txa}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="443969d9-14a4-453f-b843-daf88f770da4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ProjectId" id="1lULV0WvLr3SgITt6jZ0bSSjcCo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/assets/hubvet/site/imagens" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\assets\hubvet\site\imagens" />
+      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site" />
+      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\planos" />
+      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\global" />
+      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\solucoes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\funcionalidades" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="443969d9-14a4-453f-b843-daf88f770da4" name="Default Changelist" comment="" />
+      <created>1607646745507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607646745507</updated>
+      <workItem from="1607646746954" duration="18909000" />
+      <workItem from="1607753772881" duration="15712000" />
+      <workItem from="1607812915076" duration="3612000" />
+      <workItem from="1607824762357" duration="9397000" />
+      <workItem from="1607889074399" duration="47000" />
+      <workItem from="1609533047217" duration="1195000" />
+      <workItem from="1609558490028" duration="12428000" />
+      <workItem from="1609612985276" duration="7207000" />
+      <workItem from="1609637525380" duration="19189000" />
+      <workItem from="1609771312507" duration="360000" />
+      <workItem from="1609805991332" duration="2462000" />
+      <workItem from="1609856845171" duration="1723000" />
+      <workItem from="1609876348810" duration="4715000" />
+      <workItem from="1609965890832" duration="7771000" />
+      <workItem from="1610224114798" duration="41745000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

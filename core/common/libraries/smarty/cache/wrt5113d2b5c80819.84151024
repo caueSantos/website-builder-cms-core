@@ -1,0 +1,35 @@
+<?php /*%%SmartyHeaderCode:233975113d2b5c4ad52-29556665%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'b62d95ff744ee694c1ef3fd139fab7bcd6247f95' => 
+    array (
+      0 => 'b62d95ff744ee694c1ef3fd139fab7bcd6247f95',
+      1 => 0,
+      2 => 'string',
+    ),
+  ),
+  'nocache_hash' => '233975113d2b5c4ad52-29556665',
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_5113d2b5c70898_54235034',
+  'cache_lifetime' => 120,
+),true); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5113d2b5c70898_54235034')) {function content_5113d2b5c70898_54235034($_smarty_tpl) {?><ul>
+      <li> <a href='inicio'>Início </a> </li>
+      <li> <a href='hotel'>Hotel </a> </li>
+      <li> <a href='apartamentos'>Apartamentos </a> </li>
+      <li> <a href='cafedamanha'>Café da Manhã </a> </li>
+      <li> <a href='fotos'>Fotos </a> </li>
+      <li> <a href='depoimentos'>Depoimentos </a> </li>
+      <li> <a href='promocoes'>Promoções </a> </li>
+      <li> <a href='localizacao'>Localização </a> </li>
+      <li> <a href='contato'>Contato</a> </li>
+</ul>
+<div id="redes_sociais">
+      <ul id='redes_sociais_icones'>
+        <li>Siga-nos</li>
+        <li><a href="www.facebook.com"><img src="imagens/facebook.png"></a></li>
+        <li><a href="https://twitter.com/"><img src="imagens/twitter.png" ></a></li>
+      </ul>
+</div><?php }} ?>

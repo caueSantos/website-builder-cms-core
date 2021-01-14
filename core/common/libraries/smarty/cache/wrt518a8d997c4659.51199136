@@ -1,0 +1,18 @@
+<?php /*%%SmartyHeaderCode:12935518a8d9974e682-52524873%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '085305d58cd462d835af76fa53651eefd6c3e086' => 
+    array (
+      0 => '085305d58cd462d835af76fa53651eefd6c3e086',
+      1 => 0,
+      2 => 'string',
+    ),
+  ),
+  'nocache_hash' => '12935518a8d9974e682-52524873',
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_518a8d997c2606_38118994',
+  'cache_lifetime' => 120,
+),true); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_518a8d997c2606_38118994')) {function content_518a8d997c2606_38118994($_smarty_tpl) {?>  <p>&copy; Company 2012</p><?php }} ?>

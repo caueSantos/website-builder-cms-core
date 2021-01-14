@@ -1,0 +1,20 @@
+/* 
+    Document   : login
+    Created on : 28/01/2016, 09:46:15
+    Author     : Gustavo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body { 
+    background: #ddd;
+}
+.topo{
+    margin-top:100px;
+}
+.img-responsive{
+    display:inline-flex;
+}
+.panel-heading label{
+    margin-bottom: 0px;
+}

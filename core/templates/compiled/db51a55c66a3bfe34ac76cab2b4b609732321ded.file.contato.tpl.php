@@ -1,0 +1,87 @@
+<?php /* Smarty version Smarty-3.1.12, created on 2020-12-11 02:55:54
+         compiled from "core\templates\producao\hubvet\site\forms\contato.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:78785fd2fbda6a7db6-38493146%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'db51a55c66a3bfe34ac76cab2b4b609732321ded' => 
+    array (
+      0 => 'core\\templates\\producao\\hubvet\\site\\forms\\contato.tpl',
+      1 => 1607656688,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '78785fd2fbda6a7db6-38493146',
+  'function' => 
+  array (
+  ),
+  'variables' => 
+  array (
+    'assets' => 0,
+    'post' => 0,
+    'cliente' => 0,
+    'contato_inserido' => 0,
+    'app' => 0,
+    'arquivito' => 0,
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.12',
+  'unifunc' => 'content_5fd2fbda87a2f0_41094253',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_5fd2fbda87a2f0_41094253')) {function content_5fd2fbda87a2f0_41094253($_smarty_tpl) {?>    <div class="container">        <div class="row">            <div class="col-sm-12">                <div class="tabela" style="background-color: #f3f3f3; padding: 30px; margin-left: auto; margin-right: auto;">                    <table bgcolor="#ffffff" style="padding-top: 30px; width:100%">                        <tbody>                            <tr>                                <td class="linha">                                    <center>                                        <img class="teste" src="<?php echo $_smarty_tpl->tpl_vars['assets']->value;?>
+imagens/logo-cor.png" height="76" style="display: block;                                             margin-top: 0px; margin-left: auto;margin-right: auto;">                                    </center>                                    <br><br>                                    <hr style="width: 89%;">                                </td>                             </tr>                        <?php if (($_smarty_tpl->tpl_vars['post']->value['Responsavel_txf']!='')){?>                            <tr>                                <!--<td style="text-align: center"> <?php echo $_smarty_tpl->tpl_vars['post']->value['Responsavel_txf'];?>
+</td>-->                                <td style="padding-left: 50px; padding-right: 50px; padding-top: 10px; padding-bottom: 10px; font-family: tahoma; font-size: 16px;"><strong><?php echo $_smarty_tpl->tpl_vars['post']->value['Responsavel_txf'];?>
+, obrigado por entrar em contato com o Santa Rosa!</strong></td>                            </tr>                        <?php }?>                        <tr>                            <td style="padding-bottom: 10px;padding-left: 50px; padding-right: 50px; padding-top: 10px;font-family: tahoma;font-size: 14px;">                                Nós da <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Fantasia_txf;?>
+ recebemos sua mensagem, aguarde em breve um de nossos atendentes entrará em contato com você!</td>                        </tr>                        <tr>                            <td style="padding: 10px 50px 0px 50px; font-family: tahoma;font-size: 14px;">                                Atenciosamente,<br>                                <strong><?php echo $_smarty_tpl->tpl_vars['cliente']->value->Fantasia_txf;?>
+</strong><br><br>                            </td>                        </tr>                        <tr>                            <td style="padding: 10px 50px 0px 50px; font-family: tahoma;font-size: 14px;"><strong>Dados enviados</strong></td>                        </tr>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Nome_txf']))){?>                            <tr>                                <td style="padding: 10px 50px 0px 50px; font-family: tahoma;font-size: 14px;"><strong>Nome:</strong> <?php echo $_smarty_tpl->tpl_vars['post']->value['Nome_txf'];?>
+</td>                            </tr>                        <?php }?>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Nome_responsavel_txf']))){?>                            <tr>                                <td style="padding: 0px 50px 0px 50px; font-family: tahoma;font-size: 14px;"><strong>Nome do responsável:</strong> <?php echo $_smarty_tpl->tpl_vars['post']->value['Nome_responsavel_txf'];?>
+</td>                            </tr>                        <?php }?>                         <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Nome_aluno_txf']))){?>                            <tr>                                <td style="padding:0px 50px 0px 50px; font-family: tahoma;font-size: 14px;"><strong>Nome do aluno:</strong> <?php echo $_smarty_tpl->tpl_vars['post']->value['Nome_aluno_txf'];?>
+</td>                            </tr>                        <?php }?>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Sobrenome_txf']))){?>                            <tr>                                <td style="padding: 0px 50px 0px 50px; font-family: tahoma;font-size: 14px;"> <strong>Sobrenome:</strong> <?php echo $_smarty_tpl->tpl_vars['post']->value['Sobrenome_txf'];?>
+</td>                            </tr>                        <?php }?>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Empresa_txf']))){?>                            <tr>                                <td style="padding: 0px 50px 0px 50px; font-family: tahoma;font-size: 14px;"><strong>Empresa:</strong> <?php echo $_smarty_tpl->tpl_vars['post']->value['Empresa_txf'];?>
+</td>                            </tr>                        <?php }?>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Atividade_txf']))){?>                            <tr>                                <td style="padding: 0px 50px 0px 50px; font-family: tahoma;font-size: 14px;"><strong>Atividade:</strong> <?php echo $_smarty_tpl->tpl_vars['post']->value['Atividade_txf'];?>
+</td>                            </tr>                        <?php }?>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Estado_est']))){?>                            <tr>                                <td style="padding: 0px 50px 0px 50px; font-family: tahoma;font-size: 14px;"><strong>Estado: </strong><?php echo $_smarty_tpl->tpl_vars['post']->value['Estado_est'];?>
+</td>                            </tr>                        <?php }?>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Responsavel_txf']))){?>                            <tr>                                <td style="padding: 0px 50px 0px 50px; font-family: tahoma;font-size: 14px;"><strong>Responsável:</strong> <?php echo $_smarty_tpl->tpl_vars['post']->value['Responsavel_txf'];?>
+</td>                            </tr>                        <?php }?>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Email_txf']))){?>                            <tr>                                <td style="padding: 0px 50px 0px 50px; font-family: tahoma;font-size: 14px;"><strong>Email:</strong> <?php echo $_smarty_tpl->tpl_vars['post']->value['Email_txf'];?>
+</td>                            </tr>                        <?php }?>                        <?php if ($_smarty_tpl->tpl_vars['contato_inserido']->value->Arquivos[0]){?>                            <tr>                                <td>                                    <strong>Arquivo(s):</strong>                                    <?php  $_smarty_tpl->tpl_vars['arquivito'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['arquivito']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['contato_inserido']->value->Arquivos; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['arquivito']->key => $_smarty_tpl->tpl_vars['arquivito']->value){
+$_smarty_tpl->tpl_vars['arquivito']->_loop = true;
+?>                                        <a href="<?php echo $_smarty_tpl->tpl_vars['app']->value->Url_cliente_linguagem;?>
+<?php echo $_smarty_tpl->tpl_vars['app']->value->Pasta_painel;?>
+/<?php echo $_smarty_tpl->tpl_vars['arquivito']->value->Caminho_txf;?>
+"> <?php echo $_smarty_tpl->tpl_vars['arquivito']->value->Nome_txf;?>
+ </a>                                        <br>                                    <?php } ?>                                </td>                            </tr>                        <?php }?>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Telefone_txf']))){?>                            <tr>                                <td style="padding: 0px 50px 0px 50px; font-family: tahoma;font-size: 14px;"><strong>Telefone: </strong> <?php echo $_smarty_tpl->tpl_vars['post']->value['Telefone_txf'];?>
+</td>                            </tr>                        <?php }?>                        <?php if (($_smarty_tpl->tpl_vars['post']->value['Aluno_txf']!='')){?>                            <tr>                                <td style="padding: 0px 50px 25px 50px; font-family: tahoma;font-size: 14px;"><strong>Aluno: </strong><?php echo $_smarty_tpl->tpl_vars['post']->value['Aluno_txf'];?>
+                                    <br><br><br>                                </td>                            </tr>                        <?php }?>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Mensagem_txa']))){?>                            <tr>                                <td style="padding: 0px 50px 25px 50px; font-family: tahoma;font-size: 14px;"><strong>Mensagem:</strong> <?php echo $_smarty_tpl->tpl_vars['post']->value['Mensagem_txa'];?>
+</td>                            </tr>                        <?php }?>                        <tr>                            <td class="botom" style="font-family: tahoma;font-size: 10px; text-align: center; padding-bottom: 30px; padding-left: 50px; padding-right: 50px; color: #adadad">                                <!--                    <a href="https://br.linkedin.com/" target="_blank" style="padding-right: 6px;text-decoration: none;">                                                        <img src="https://assets.lands.net.br/coclages/site/imagens/linkedin.png" width="24" height="24">                                                   </a>-->                                <hr style="width: 98%;">                                                                <br>                                <br>                                E-mail enviado por <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Fantasia_txf;?>
+<br>                                <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Endereco_txf;?>
+, <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Numero_txf;?>
+ - <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Bairro_txf;?>
+, <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Cidade_txf;?>
+ - <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Estado_sel;?>
+, <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Cep_txf;?>
+<br>                                <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Email_txf;?>
+ - <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Telefone_txf;?>
+<br>                                <!--coclages@coclages.com.br - (49) 99825-6021<br>-->                                <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Dominio_txf;?>
+<br>                                <!--www.coclages.com.br <br>-->                            </td>                        </tr>                        </tbody>                    </table>                </div>            </div>        </div>    </div>    <style>        @media screen and (-webkit-min-device-pixel-ratio: 0) {            /* Insert styles here */        }        .tabela{            width: 75%;        }        @media screen and (max-width:600px) {            .tabela {                width: 88%;            }            .linha{                padding: 0px 50px 0px 50px            }            .botom{                padding-bottom: 60px;            }        }    </style><!--<div>    <table>        <tbody>            <tr>                <td>Contato do Site - <?php echo date('d/m/Y');?>
+</td>                <td><br />                </td>            </tr>            <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Nome_txf']))){?>                <tr>                    <td>Nome:</td>                    <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Nome_txf'];?>
+</td>                </tr>            <?php }?>            <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Sobrenome_txf']))){?>                <tr>                    <td>Sobrenome:</td>                    <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Sobrenome_txf'];?>
+</td>                </tr>            <?php }?>            <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Empresa_txf']))){?>                <tr>                    <td>Empresa:</td>                    <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Empresa_txf'];?>
+</td>                </tr>            <?php }?>            <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Telefone_txf']))){?>                <tr>                    <td>Telefone:</td>                    <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Telefone_txf'];?>
+</td>                </tr>            <?php }?>            <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Email_txf']))){?>                <tr>                    <td>Email:</td>                    <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Email_txf'];?>
+</td>                </tr>            <?php }?>            <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Cidade_txf']))){?>                <tr>                    <td>Cidade:</td>                    <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Cidade_txf'];?>
+</td>                </tr>            <?php }?>            <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Estado_est']))){?>                <tr>                    <td>Estado:</td>                    <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Estado_est'];?>
+</td>                </tr>            <?php }?>            <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Estado_sel']))){?>                <tr>                    <td>Estado:</td>                    <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Estado_sel'];?>
+</td>                </tr>            <?php }?>            <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Estado_txf']))){?>                <tr>                    <td>Estado:</td>                    <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Estado_txf'];?>
+</td>                </tr>            <?php }?>            <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Produto_txf']))){?>                <tr>                    <td>Produto:</td>                    <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Produto_txf'];?>
+</td>                </tr>            <?php }?>            <?php if ($_smarty_tpl->tpl_vars['contato_inserido']->value->Arquivos[0]){?>                <tr>                    <td>Arquivo(s):</td>                    <td><?php  $_smarty_tpl->tpl_vars['arquivito'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['arquivito']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['contato_inserido']->value->Arquivos; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['arquivito']->key => $_smarty_tpl->tpl_vars['arquivito']->value){
+$_smarty_tpl->tpl_vars['arquivito']->_loop = true;
+?>                        <a href="<?php echo $_smarty_tpl->tpl_vars['app']->value->Url_cliente_linguagem;?>
+<?php echo $_smarty_tpl->tpl_vars['app']->value->Pasta_painel;?>
+/<?php echo $_smarty_tpl->tpl_vars['arquivito']->value->Caminho_txf;?>
+"> <?php echo $_smarty_tpl->tpl_vars['arquivito']->value->Nome_txf;?>
+ </a>                        <br>                        <?php } ?>                        </td>                    </tr>                    <?php }?>                    </tbody>                </table>                <table style="border-collapse:collapse;width:100%;">                    <tbody>                        <?php if ((isset($_smarty_tpl->tpl_vars['post']->value['Mensagem_txa']))){?><tr>                                <td>Mensagem:</td>                                <td><?php echo $_smarty_tpl->tpl_vars['post']->value['Mensagem_txa'];?>
+<br />                                </td>                            </tr>                        <?php }?>                    </tbody>                </table><br />            </div>            <div>Agradecemos o seu contato, retornaremos o mais breve possível!</div>            <div><?php echo $_smarty_tpl->tpl_vars['app']->value->Titulo_txf;?>
+</div>--><?php }} ?>

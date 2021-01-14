@@ -1,0 +1,1 @@
+{if $banner_solucoes[0]}<section id="banner-solucoes" class="pt-40 pt-lg-70">  {include file=$CAMINHO_TPL|cat:'blocos/solucoes/banner-solucoes.tpl'}</section>{/if}

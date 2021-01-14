@@ -1,0 +1,48 @@
+body{
+      background:url(../img/fundo.jpg);
+
+}
+.topo{
+      min-height: 250px;
+
+}
+.logo_topo{
+      margin-top:32px;
+
+} 
+.topo_texto{
+      text-align:center;
+      margin: 40px auto;
+      font-size:40px;
+      color:#606062;
+      font-weight: bold;
+      font-family: sans-serif;
+} 
+.faixa{
+      height: 3px;
+      background-color:#bebebe;
+}
+.faixa_meio{
+      
+      background-color:#ececec;
+
+}
+.meio_titulo{
+      text-align:left;
+      font-size: 24px;
+      color:#606062;
+}
+.meio_titulo_menor{
+      text-align:left;
+      font-size: 20px;
+      color:#606062;
+}
+.form-control{
+      margin-bottom: 0px;
+      font-size: 12px;
+}
+
+.enviar{
+      background-color:#4b4b4b;
+      color:#cacaca;
+}

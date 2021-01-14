@@ -1,0 +1,1 @@
+{ver($case_interna)}

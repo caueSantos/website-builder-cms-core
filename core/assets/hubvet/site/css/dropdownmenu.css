@@ -1,0 +1,21 @@
+/*.bottom { padding-bottom: 25px;}
+.bottom .menu {text-align: center; margin: auto; width: 400px; padding-top: 50px;}
+.bottom .menu ul li {float:left; padding: 0 10px;}
+.bottom .menu ul li a {color: #fff; font-size: 16px; padding: 10px 0; display: block}
+.bottom .menu ul li a:hover {opacity: 0.8}*/
+.dropdown > ul {
+    background: #1891D0; 
+}
+.dropdown { background: #1891D0; }
+.bottom .menu ul li.dropdown a {position:relative; z-index:4;}
+.bottom .menu ul li.dropdown:hover > a {color: #FFD101;}  
+.bottom .menu ul li.dropdown:hover > ul {display: block; *display:none; padding: 0px; background:inherit; margin-top: 0px; width: 240px; margin-left: -15px;}
+.bottom .menu ul ul {position:absolute; z-index:3; display:none; box-shadow: 0 0 10px rgba(0, 0, 0, 0.35); }
+.bottom .menu ul ul li {float: none;padding: 0;}
+.bottom .menu ul ul li a {padding: 15px 20px; display: block; color: #000; font-size: 14px; text-align: left;}
+.bottom .menu ul ul li a:hover { text-shadow: none !important; box-shadow: none !important; color: #FFF }
+
+/*.bottom .menu ul li.dropdown.azul:hover > a {color:#a7ceff;}  
+.bottom .menu ul li.dropdown.vermelho:hover > a {color: #ff8589;}  
+.bottom .menu ul li.azul ul li a:hover {background: #0d4d9e !important; color: #FFF !important}
+.bottom .menu ul li.vermelho ul li a:hover {background: #d0272c !important; color: #FFF !important}*/

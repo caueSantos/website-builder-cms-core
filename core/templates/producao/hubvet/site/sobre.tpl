@@ -1,0 +1,1 @@
+<main id="sobre">  <div id="wrap" class="pb-50">    {include file=$CAMINHO_TPL|cat:'blocos/sobre/sobre-mim.tpl'}    {include file=$CAMINHO_TPL|cat:'blocos/sobre/sobre-carreira.tpl'}    {include file=$CAMINHO_TPL|cat:'blocos/sobre/sobre-referencia.tpl'}    {include file=$CAMINHO_TPL|cat:'blocos/sobre/equipe.tpl'}  </div></main>

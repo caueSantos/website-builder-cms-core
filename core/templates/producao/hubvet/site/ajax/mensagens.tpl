@@ -1,0 +1,1 @@
+{if $post['Meio_envio_txf'] == 'AJAX'}{json_encode(['request' => $post, 'message' => $mensagem])}{else}<div class="resposta" style="margin-top:10px;">  <script type="text/javascript" charset="utf-8">    processaMensagemAlert('{$mensagem}');  </script></div>{/if}

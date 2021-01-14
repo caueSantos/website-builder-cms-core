@@ -1,0 +1,1 @@
+{$titulo='<strong>Blog</strong>'}{$subtitulo='Conheça as últimas novidades do Diagnóstico Lab'}{include file=$CAMINHO_TPL|cat:'blocos/global/head_interna.tpl'}
