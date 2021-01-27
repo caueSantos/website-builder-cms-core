@@ -10,12 +10,19 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1lULV0WvLr3SgITt6jZ0bSSjcCo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -34,9 +41,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\assets\hubvet\site\imagens" />
+      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\global" />
       <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site" />
       <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\planos" />
-      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\global" />
       <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\solucoes" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -66,10 +73,20 @@
       <workItem from="1609876348810" duration="4715000" />
       <workItem from="1609965890832" duration="7771000" />
       <workItem from="1610224114798" duration="41745000" />
+      <workItem from="1610666486584" duration="690000" />
+      <workItem from="1610925842122" duration="13813000" />
+      <workItem from="1611370394254" duration="10910000" />
+      <workItem from="1611459912360" duration="5787000" />
+      <workItem from="1611550470805" duration="1225000" />
+      <workItem from="1611589943947" duration="645000" />
+      <workItem from="1611633954045" duration="5555000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

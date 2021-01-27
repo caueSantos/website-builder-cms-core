@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-12 09:40:02
+<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 17:49:42
          compiled from "5629212892a21f99fba8d9a843290e2d0255c780" */ ?>
-<?php /*%%SmartyHeaderCode:55745ffd8a9254b769-56615954%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:26536010725621b267-76907181%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,12 +11,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '55745ffd8a9254b769-56615954',
+  'nocache_hash' => '26536010725621b267-76907181',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5ffd8a9254d279_44943432',
+  'unifunc' => 'content_6010725621c407_23142737',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ffd8a9254d279_44943432')) {function content_5ffd8a9254d279_44943432($_smarty_tpl) {?> where Ativo_sel='SIM'<?php }} ?>
+<?php if ($_valid && !is_callable('content_6010725621c407_23142737')) {function content_6010725621c407_23142737($_smarty_tpl) {?> where Ativo_sel='SIM'<?php }} ?>

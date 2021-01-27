@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-12 09:40:04
+<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 17:49:42
          compiled from "core\templates\producao\hubvet\site\blocos\global\rodape.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:141705ffd8a94be2c28-06879230%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:83396010725686c2b6-04526536%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '9daa9e54159a7caf98416a3b5246b57ba50efdd4' => 
     array (
       0 => 'core\\templates\\producao\\hubvet\\site\\blocos\\global\\rodape.tpl',
-      1 => 1610403981,
+      1 => 1610991941,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '141705ffd8a94be2c28-06879230',
+  'nocache_hash' => '83396010725686c2b6-04526536',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5ffd8a94c4cea6_07928282',
+  'unifunc' => 'content_601072568da551_98203082',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ffd8a94c4cea6_07928282')) {function content_5ffd8a94c4cea6_07928282($_smarty_tpl) {?><?php $_smarty_tpl->tpl_vars['tipo'] = new Smarty_variable(2, null, 0);?><?php echo $_smarty_tpl->getSubTemplate (($_smarty_tpl->tpl_vars['CAMINHO_TPL']->value).('blocos/global/experimente-secao.tpl'), $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_601072568da551_98203082')) {function content_601072568da551_98203082($_smarty_tpl) {?><?php $_smarty_tpl->tpl_vars['tipo'] = new Smarty_variable(2, null, 0);?><?php echo $_smarty_tpl->getSubTemplate (($_smarty_tpl->tpl_vars['CAMINHO_TPL']->value).('blocos/global/experimente-secao.tpl'), $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 <footer id="rodape" class="fz-12 lh-15 text-white bg-dark-grey">  <div class="top pt-60 pb-80">    <div class="container">      <div class="row">        <div class="col-lg-3 col-logo">          <div class="logo" style="width: 176px">            <a href="<?php echo $_smarty_tpl->tpl_vars['app']->value->Url_cliente_linguagem;?>
 " title="Acesse a página inicial">              <img width="100%" itemprop="image" class="img-fluid" src="<?php echo $_smarty_tpl->tpl_vars['assets']->value;?>
 imagens/logo-rodape.png"                   alt="Logo <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Fantasia_txf;?>

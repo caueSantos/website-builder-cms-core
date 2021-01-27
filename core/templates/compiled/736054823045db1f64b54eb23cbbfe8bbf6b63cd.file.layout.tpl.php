@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-12 09:40:04
+<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 17:49:42
          compiled from "core\templates\producao\hubvet\site\layout.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:92945ffd8a9485c165-52370953%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:153516010725661e9d0-48614908%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '92945ffd8a9485c165-52370953',
+  'nocache_hash' => '153516010725661e9d0-48614908',
   'function' => 
   array (
   ),
@@ -37,9 +37,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5ffd8a9494a242_56719883',
+  'unifunc' => 'content_6010725672f3f2_06371400',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ffd8a9494a242_56719883')) {function content_5ffd8a9494a242_56719883($_smarty_tpl) {?><!doctype html><?php $_smarty_tpl->tpl_vars['tags'] = new Smarty_variable(executa_sql('select * from labels'), null, 0);?><?php if (isset($_smarty_tpl->tpl_vars['requisicao']->value['persona'])){?>  <?php $_smarty_tpl->tpl_vars['redirect'] = new Smarty_variable(true, null, 0);?>  <?php  $_smarty_tpl->tpl_vars['tag'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['tag']->_loop = false;
+<?php if ($_valid && !is_callable('content_6010725672f3f2_06371400')) {function content_6010725672f3f2_06371400($_smarty_tpl) {?><!doctype html><?php $_smarty_tpl->tpl_vars['tags'] = new Smarty_variable(executa_sql('select * from labels'), null, 0);?><?php if (isset($_smarty_tpl->tpl_vars['requisicao']->value['persona'])){?>  <?php $_smarty_tpl->tpl_vars['redirect'] = new Smarty_variable(true, null, 0);?>  <?php  $_smarty_tpl->tpl_vars['tag'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['tag']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['tags']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['tag']->key => $_smarty_tpl->tpl_vars['tag']->value){
 $_smarty_tpl->tpl_vars['tag']->_loop = true;

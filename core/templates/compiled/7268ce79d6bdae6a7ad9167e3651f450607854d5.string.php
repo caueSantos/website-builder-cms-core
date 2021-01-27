@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-12 09:40:03
+<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 17:49:42
          compiled from "7268ce79d6bdae6a7ad9167e3651f450607854d5" */ ?>
-<?php /*%%SmartyHeaderCode:4735ffd8a93f0c1d2-58189762%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18595601072562641c1-59453081%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'string',
     ),
   ),
-  'nocache_hash' => '4735ffd8a93f0c1d2-58189762',
+  'nocache_hash' => '18595601072562641c1-59453081',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5ffd8a93f20755_35205687',
+  'unifunc' => 'content_6010725627b569_79495767',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ffd8a93f20755_35205687')) {function content_5ffd8a93f20755_35205687($_smarty_tpl) {?> where Ativo_sel='SIM'
+<?php if ($_valid && !is_callable('content_6010725627b569_79495767')) {function content_6010725627b569_79495767($_smarty_tpl) {?> where Ativo_sel='SIM'
 
 <?php if ($_smarty_tpl->tpl_vars['requisicao']->value['persona']){?>
  and FIND_IN_SET('<?php echo $_smarty_tpl->tpl_vars['requisicao']->value['persona'];?>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-12 09:40:04
+<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 02:35:53
          compiled from "core\templates\producao\hubvet\site\blocos\inicio\banner.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:318625ffd8a94414606-88585153%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2860600f9c29c27503-82581151%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '318625ffd8a94414606-88585153',
+  'nocache_hash' => '2860600f9c29c27503-82581151',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5ffd8a9443fbc7_62785155',
+  'unifunc' => 'content_600f9c29c4e142_17438812',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ffd8a9443fbc7_62785155')) {function content_5ffd8a9443fbc7_62785155($_smarty_tpl) {?><section id="banners" class="bg-dark-grey text-white">  <div class="owl-carousel carousel-banners"       data-owl-carousel       data-owl-items="1"       data-rwd="1-1-1"       data-owl-loop="true"       data-owl-autoplay="true"       data-owl-autoplay-timeout="10000"       data-owl-margin="0"       data-owl-dots="false"       data-owl-nav="false"  >    <?php  $_smarty_tpl->tpl_vars['banner'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['banner']->_loop = false;
+<?php if ($_valid && !is_callable('content_600f9c29c4e142_17438812')) {function content_600f9c29c4e142_17438812($_smarty_tpl) {?><section id="banners" class="bg-dark-grey text-white">  <div class="owl-carousel carousel-banners"       data-owl-carousel       data-owl-items="1"       data-rwd="1-1-1"       data-owl-loop="true"       data-owl-autoplay="true"       data-owl-autoplay-timeout="10000"       data-owl-margin="0"       data-owl-dots="false"       data-owl-nav="false"  >    <?php  $_smarty_tpl->tpl_vars['banner'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['banner']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['banners']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['banner']->key => $_smarty_tpl->tpl_vars['banner']->value){
 $_smarty_tpl->tpl_vars['banner']->_loop = true;

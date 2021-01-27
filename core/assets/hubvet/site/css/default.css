@@ -50,6 +50,14 @@ iframe {
     margin-bottom: -6px;
 }
 
+.window-width{
+    width: var(--window-width) !important;
+}
+
+.window-height{
+    width: var(--window-height) !important;
+}
+
 .tn-ease {
     transition: .25s all ease;
 }
@@ -112,6 +120,10 @@ a.bg-primary:hover {
 
 .bg-dark-grey, .bg-dark-grey-hover:hover {
     background-color: var(--dark-grey) !important;
+}
+
+.bg-dark-grey-2, .bg-dark-grey-2-hover:hover {
+    background-color: #223643 !important;
 }
 
 .bg-accent, .bg-accent-hover:hover {
@@ -2157,6 +2169,7 @@ ul.horizontal-list > li {
     .lands-tabs .nav .nav-item {
         display: inline-block;
         line-height: 1;
+        min-width: 150px;
     }
 
     .lands-tabs-fake-pad {

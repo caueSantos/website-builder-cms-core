@@ -1,5 +1,86 @@
 $(function () {
 
+  window.menuTopoLocal = null;
+  $('#menu-topo .dropdown .nav-link.dropdown-toggle')
+    .on('mouseenter', function (e) {
+      openCloseMenu(e, $(this));
+    })
+    .on('mouseleave', function (e) {
+      openCloseMenu(e, $(this));
+    });
+
+  $('#topo-full-menu')
+    .on('mouseenter', function (e) {
+      window.menuTopoLocal = 'menu';
+    })
+    .on('mouseleave', function (e) {
+      if (window.menuTopoLocal === 'menu') {
+        forceCloseMenu();
+      }
+    });
+
+  function forceCloseMenu(itemType = 'item') {
+    setTimeout(function () {
+      if (window.menuTopoLocal !== itemType) {
+        var $menu = $('#topo-full-menu'),
+          $all_menu_group = $(`[data-menu]`, $menu);
+        $menu.slideUp(100, function () {
+          $all_menu_group.hide(0);
+        });
+        window.menuTopoLocal = null;
+      }
+    }, 5);
+  }
+
+  function openCloseMenu(event, $this) {
+
+    var eventType = event.type,
+      menuId = $this.data('menu-id'),
+      $menu = $('#topo-full-menu'),
+      $menu_group = $(`[data-menu="${menuId}"]`, $menu),
+      $all_menu_group = $(`[data-menu]`, $menu);
+
+    if (eventType === 'mouseenter') {
+      $all_menu_group.hide(0);
+      window.menuTopoLocal = 'item';
+      $menu_group.show(0);
+      $menu.show(100);
+    }
+
+    if (eventType === 'mouseleave') {
+      forceCloseMenu('menu');
+    }
+
+  }
+
+  $('#materiais .menu-item').on('click', function (e) {
+
+    e.preventDefault();
+
+    var categoria = null;
+    var dataCategoria = $(this).data('id');
+
+    if (dataCategoria) {
+      categoria = {
+        categoria: dataCategoria
+      };
+    }
+
+    $('#materiais .menu-item').removeClass('active');
+    $(this).addClass('active');
+
+    super_ajax(
+      $('#materiais-container-ajax'),
+      $('#materiais-container-loader'),
+      'materiais',
+      categoria
+    );
+
+  });
+  setTimeout(function () {
+    $('#materiais .menu > li:first-child .menu-item').trigger('click');
+  }, 500);
+
   doT.templateSettings = {
     evaluate: /\<\%([\s\S]+?)\%\>/g,
     interpolate: /\<\%=([\s\S]+?)\%\>/g,
@@ -203,27 +284,6 @@ function paginacaoAjax($container, endpoint, paginacaoOptions, ajaxOptions) {
 
 function checkElementResize(element, callback) {
   new ResizeObserver(callback).observe(element);
-}
-
-function elementIsAnimating(element, callback, onlyOneTime = false) {
-
-  var transitioning = element.data('transitioning');
-  element.data('transitioning', true);
-
-  console.log(transitioning);
-
-  if (!transitioning) {
-
-    element.one(
-      "transitionend MSTransitionEnd webkitTransitionEnd oTransitionEnd",
-      function () {
-        callback();  // Transition has ended.
-        element.data('transitioning', false);
-      }
-    );
-
-  }
-
 }
 
 function createCSSHelpers() {

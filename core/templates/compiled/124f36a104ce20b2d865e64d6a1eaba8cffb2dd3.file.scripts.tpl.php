@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-12 09:40:04
+<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 17:49:42
          compiled from "core\templates\producao\hubvet\site\blocos\global\scripts.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:59915ffd8a94eae364-55859438%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1651760107256aa0ed4-01919580%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '124f36a104ce20b2d865e64d6a1eaba8cffb2dd3' => 
     array (
       0 => 'core\\templates\\producao\\hubvet\\site\\blocos\\global\\scripts.tpl',
-      1 => 1609565533,
+      1 => 1611371538,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '59915ffd8a94eae364-55859438',
+  'nocache_hash' => '1651760107256aa0ed4-01919580',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5ffd8a94ed5603_97019447',
+  'unifunc' => 'content_60107256ac3c05_40863758',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ffd8a94ed5603_97019447')) {function content_5ffd8a94ed5603_97019447($_smarty_tpl) {?><script>  function styleFromJs(styleId, cssCode) {    $styleTag = document.getElementById(styleId);    if (!$styleTag) {      var style = document.createElement('style');      style.setAttribute('id', styleId);      document.getElementsByTagName('head')[0].appendChild(style);      $styleTag = document.getElementById(styleId);    }    $styleTag.innerHTML = cssCode;  }  function containerHelper() {    var $container = document.querySelector('.container');    window.containerOutterWidth = Math.ceil((window.innerWidth - $container.clientWidth + 30) / 2);    var styleCode = `:root { --container-width: ${$container.clientWidth}px; --container-outter-gutter: ${window.containerOutterWidth}px; }`;    styleFromJs('container-js-style', styleCode);  }  window.addEventListener('resize', function () {    containerHelper();  });  window.dispatchEvent(new Event('resize'));</script><script src="<?php echo $_smarty_tpl->tpl_vars['assets']->value;?>
+<?php if ($_valid && !is_callable('content_60107256ac3c05_40863758')) {function content_60107256ac3c05_40863758($_smarty_tpl) {?><script>  function styleFromJs(styleId, cssCode) {    $styleTag = document.getElementById(styleId);    if (!$styleTag) {      var style = document.createElement('style');      style.setAttribute('id', styleId);      document.getElementsByTagName('head')[0].appendChild(style);      $styleTag = document.getElementById(styleId);    }    $styleTag.innerHTML = cssCode;  }  function containerHelper() {    var $container = document.querySelector('.container');    window.containerOutterWidth = Math.ceil((window.innerWidth - $container.clientWidth + 30) / 2);    var styleCode = `:root { --container-width: ${$container.clientWidth}px; --container-outter-gutter: ${window.containerOutterWidth}px; }`;    styleFromJs('container-js-style', styleCode);  }  function screenSizeHelper() {    var $window = $(window);    var styleCode = `:root { --window-width: ${$window.width()}px; --window-height: ${$window.height()}px; }`;    styleFromJs('window-size-js-style', styleCode);  }  window.addEventListener('resize', function () {    containerHelper();    screenSizeHelper();  });  window.dispatchEvent(new Event('resize'));</script><script src="<?php echo $_smarty_tpl->tpl_vars['assets']->value;?>
 plugins/utils/lodash.js"></script><script src="<?php echo $_smarty_tpl->tpl_vars['assets']->value;?>
 plugins/utils/cep-promise.min.js"></script><script src="<?php echo $_smarty_tpl->tpl_vars['assets']->value;?>
 plugins/jquery/jquery.ui.widget.js"></script><script src="<?php echo $_smarty_tpl->tpl_vars['assets']->value;?>

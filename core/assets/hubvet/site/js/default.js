@@ -472,6 +472,29 @@ function changeUrl(page, url) {
 
 }
 
+function super_ajax($container, $loader, pagina, data = {}) {
+
+  $container.hide(0);
+  $loader.fadeIn(150);
+
+  $.ajax({
+    url: window.appUrl + "super_ajax/" + pagina,
+    type: "get",
+    data: data,
+    success: function (data) {
+      $container.html(data);
+      $container.fadeIn(150);
+    },
+    error: function () {
+      $container.html('<div class="super-ajax-error">Erro ao abrir página</div>');
+    },
+    complete: function () {
+      $loader.hide(0);
+    }
+  });
+
+}
+
 function carrega_pagina(pagina) {
 
   changeUrl(window.appUrl, window.appUrl + pagina);
@@ -1025,6 +1048,27 @@ function landsTabs() {
       $parent.scrollLeft($parentDiv.scrollTop() + $innerListItem.position().top);
 
     });
+
+  }
+
+}
+
+function elementIsAnimating(element, callback, onlyOneTime = false) {
+
+  var transitioning = element.data('transitioning');
+  element.data('transitioning', true);
+
+  console.log(transitioning);
+
+  if (!transitioning) {
+
+    element.one(
+      "transitionend MSTransitionEnd webkitTransitionEnd oTransitionEnd",
+      function () {
+        callback();  // Transition has ended.
+        element.data('transitioning', false);
+      }
+    );
 
   }
 

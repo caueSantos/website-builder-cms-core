@@ -622,7 +622,7 @@ body.interna-cases .experimente {
         position: fixed;
         top: 0px;
         width: 100%;
-        z-index: 999;
+        z-index: 9999999;
         box-shadow: rgba(0, 0, 0, 0.2) 0 -5px 20px 0px;
         transition: .15s all ease;
         background-color: rgb(255, 255, 255);
@@ -1374,7 +1374,7 @@ body.interna-cases .experimente {
 }
 
 .form-lands-group.form-autocomplete input {
-    border-color: transparent !important;
+    /* border-color: transparent !important; */
 }
 
 /* width */
@@ -1418,4 +1418,23 @@ body.interna-cases .experimente {
 .funcionalidade .imagem img {
     height: 76px;
     width: auto;
+}
+
+.menu-height {
+    max-height: calc(var(--window-height) - var(--topo-height));
+}
+
+#topo-full-menu {
+    position: absolute;
+    margin-top: -32px;
+    padding-top: 32px;
+    display: none;
+}
+
+#topo-full-menu .full-menu-inner {
+    overflow-y: auto;
+}
+
+#topo-full-menu .menu-group{
+    display: none;
 }

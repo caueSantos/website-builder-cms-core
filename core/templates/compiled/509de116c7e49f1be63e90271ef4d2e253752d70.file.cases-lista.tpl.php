@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-12 02:23:12
+<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 17:49:42
          compiled from "core\templates\producao\hubvet\site\blocos\cases\cases-lista.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:200155ffd2430d84660-99554853%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:306260107256589676-84773407%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '200155ffd2430d84660-99554853',
+  'nocache_hash' => '306260107256589676-84773407',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5ffd2430dc3563_49835191',
+  'unifunc' => 'content_601072565ff838_88002826',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ffd2430dc3563_49835191')) {function content_5ffd2430dc3563_49835191($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['cases']->value[0]){?>
+<?php if ($_valid && !is_callable('content_601072565ff838_88002826')) {function content_601072565ff838_88002826($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['cases']->value[0]){?>
 <section class="cases-lista pt-40 pt-md-70 pb-40 pb-md-100">
 
   <div class="container">
