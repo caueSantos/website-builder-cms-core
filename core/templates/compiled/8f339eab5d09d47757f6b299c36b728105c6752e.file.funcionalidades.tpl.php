@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-23 20:47:44
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-04 02:51:03
          compiled from "core\templates\producao\hubvet\site\blocos\funcionalidades\funcionalidades.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6623600ca7901f79c5-68243555%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1731601b7d3763aa51-86222520%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6623600ca7901f79c5-68243555',
+  'nocache_hash' => '1731601b7d3763aa51-86222520',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_600ca79022d8d2_19699053',
+  'unifunc' => 'content_601b7d3765a306_41396296',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_600ca79022d8d2_19699053')) {function content_600ca79022d8d2_19699053($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['funcionalidades']->value[0]){?>
+<?php if ($_valid && !is_callable('content_601b7d3765a306_41396296')) {function content_601b7d3765a306_41396296($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['funcionalidades']->value[0]){?>
 <section class="planos-funcionalidades">
 
   <div class="fiuncionalidades pt-50 pb-70">

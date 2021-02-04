@@ -1,1 +1,1 @@
-<section class="formulario">    {include file=$CAMINHO_TPL|cat:'blocos/contato/form_contato.tpl'}</section>
+{$tipo=$tipo|default:0}{include file=$CAMINHO_TPL|cat:'blocos/contato/form_contato.tpl'}

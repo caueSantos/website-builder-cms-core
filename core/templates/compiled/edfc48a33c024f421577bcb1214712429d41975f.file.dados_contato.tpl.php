@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2020-12-13 00:41:42
+<?php /* Smarty version Smarty-3.1.12, created on 2021-01-31 04:56:25
          compiled from "core\templates\producao\hubvet\site\blocos\contato\dados_contato.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:275465fd57f66d3c677-39248177%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3173160165499600636-71529081%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '275465fd57f66d3c677-39248177',
+  'nocache_hash' => '3173160165499600636-71529081',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5fd57f66d678f5_19730266',
+  'unifunc' => 'content_6016549962a671_76288320',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fd57f66d678f5_19730266')) {function content_5fd57f66d678f5_19730266($_smarty_tpl) {?><div class="dados">  <?php if ($_smarty_tpl->tpl_vars['telefones']->value){?>  <div class="telefones">    <h3 class="fz-16 fw-400 d-inline">      Telefones:    </h3>    <ul class="d-inline telefones-lista">      <?php  $_smarty_tpl->tpl_vars['telefone'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['telefone']->_loop = false;
+<?php if ($_valid && !is_callable('content_6016549962a671_76288320')) {function content_6016549962a671_76288320($_smarty_tpl) {?><div class="dados">  <?php if ($_smarty_tpl->tpl_vars['telefones']->value){?>  <div class="telefones">    <h3 class="fz-16 fw-400 d-inline">      Telefones:    </h3>    <ul class="d-inline telefones-lista">      <?php  $_smarty_tpl->tpl_vars['telefone'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['telefone']->_loop = false;
  $_smarty_tpl->tpl_vars['key'] = new Smarty_Variable;
  $_from = $_smarty_tpl->tpl_vars['telefones']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['telefone']->key => $_smarty_tpl->tpl_vars['telefone']->value){

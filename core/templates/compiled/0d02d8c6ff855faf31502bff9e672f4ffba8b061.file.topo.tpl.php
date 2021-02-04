@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 17:49:42
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-04 02:58:44
          compiled from "core\templates\producao\hubvet\site\blocos\global\topo.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:29058601072567bf6c5-23313365%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:27120601b7f04cbca22-49249239%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0d02d8c6ff855faf31502bff9e672f4ffba8b061' => 
     array (
       0 => 'core\\templates\\producao\\hubvet\\site\\blocos\\global\\topo.tpl',
-      1 => 1611463280,
+      1 => 1612414653,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '29058601072567bf6c5-23313365',
+  'nocache_hash' => '27120601b7f04cbca22-49249239',
   'function' => 
   array (
   ),
@@ -31,9 +31,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_60107256845588_52856128',
+  'unifunc' => 'content_601b7f04d409b4_35102038',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60107256845588_52856128')) {function content_60107256845588_52856128($_smarty_tpl) {?><?php $_smarty_tpl->tpl_vars['menu_topo'] = new Smarty_variable(junta_registros($_smarty_tpl->tpl_vars['menu_topo']->value,'Nome_url',$_smarty_tpl->tpl_vars['menu_topo_itens']->value,'Menu_sel','Itens'), null, 0);?><header id="topo" class="<?php if ($_smarty_tpl->tpl_vars['pagina_atual']->value!='inicio'){?>fixo<?php }?>">  <div class="bottom pt-lg-20 pb-lg-20">    <div class="container">      <div class="row">        <div class="col-lg-auto col-logo">          <div class="logo align-center">            <a href="<?php echo gera_link('inicio',true);?>
+<?php if ($_valid && !is_callable('content_601b7f04d409b4_35102038')) {function content_601b7f04d409b4_35102038($_smarty_tpl) {?><?php $_smarty_tpl->tpl_vars['menu_topo'] = new Smarty_variable(junta_registros($_smarty_tpl->tpl_vars['menu_topo']->value,'Nome_url',$_smarty_tpl->tpl_vars['menu_topo_itens']->value,'Menu_sel','Itens'), null, 0);?><?php $_smarty_tpl->tpl_vars['menu_topo'] = new Smarty_variable(get_object($_smarty_tpl->tpl_vars['menu_topo']->value,'Mostra_topo_sel','=','SIM'), null, 0);?><header id="topo" class="<?php if ($_smarty_tpl->tpl_vars['pagina_atual']->value!='inicio'){?>fixo<?php }?>">  <div class="bottom pt-lg-20 pb-lg-20">    <div class="container-fluid">      <div class="row">        <div class="col-lg-auto col-logo pl-md-30">          <div class="logo align-center">            <a href="<?php echo gera_link('inicio',true);?>
 " class="d-block" title="<?php echo trans('menu_topo_logo_title');?>
 ">              <img itemprop="image" class="img-fluid" src="<?php echo $_smarty_tpl->tpl_vars['assets']->value;?>
 imagens/logo-topo.png"                   alt="Logo <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Fantasia_txf;?>
@@ -43,11 +43,19 @@ imagens/logo-topo-escuro.png"                   alt="Logo <?php echo $_smarty_t
  $_from = $_smarty_tpl->tpl_vars['menu_topo']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['menu']->key => $_smarty_tpl->tpl_vars['menu']->value){
 $_smarty_tpl->tpl_vars['menu']->_loop = true;
-?>                  <li class="nav-item <?php if ($_smarty_tpl->tpl_vars['menu']->value->Itens[0]){?>dropdown<?php }?>">                    <a                      class="nav-link <?php if ($_smarty_tpl->tpl_vars['menu']->value->Itens[0]){?>dropdown-toggle<?php }?> <?php if ($_smarty_tpl->tpl_vars['pagina_atual']->value==$_smarty_tpl->tpl_vars['menu']->value->Nome_url){?>active<?php }?>"                      title="<?php echo $_smarty_tpl->tpl_vars['menu']->value->Title_txa;?>
-"                      href="<?php echo gera_link($_smarty_tpl->tpl_vars['menu']->value->Nome_url,true);?>
-"                      data-menu-id="<?php echo $_smarty_tpl->tpl_vars['menu']->value->Nome_url;?>
+?>                  <li class="nav-item <?php if ($_smarty_tpl->tpl_vars['menu']->value->Itens[0]){?>dropdown<?php }?>">                    <a                      class="nav-link <?php if ($_smarty_tpl->tpl_vars['menu']->value->Itens[0]){?>dropdown-toggle<?php }?> <?php if ($_smarty_tpl->tpl_vars['pagina_atual']->value==$_smarty_tpl->tpl_vars['menu']->value->Link_txf){?>active<?php }?>"                      title="<?php echo $_smarty_tpl->tpl_vars['menu']->value->Title_txf;?>
+"                      href="<?php if ($_smarty_tpl->tpl_vars['menu']->value->Possui_link_sel=='SIM'){?><?php echo gera_link($_smarty_tpl->tpl_vars['menu']->value->Link_txf,true);?>
+<?php }else{ ?>javascript:void(0)<?php }?>"                      data-menu-id="<?php echo $_smarty_tpl->tpl_vars['menu']->value->Nome_url;?>
 "                    >                      <?php echo $_smarty_tpl->tpl_vars['menu']->value->Nome_tit;?>
-                    </a>                  </li>                  <?php } ?>                </ul>              </div>            </nav>          </div>        </div>        <div class="col-lg-auto">          <div class="align-center">            <?php $_smarty_tpl->tpl_vars['linguagens'] = new Smarty_variable(opcoes_linguagens(linguagens_disponiveis(null,true)), null, 0);?>            <form action="<?php echo $_smarty_tpl->tpl_vars['app']->value->Url_cliente_linguagem;?>
+                    </a>                  </li>                  <?php } ?>                </ul>              </div>            </nav>          </div>        </div>        <div class="col-lg-auto">          <ul class="navbar px-0 py-0 align-center">            <?php if (config('login_topo')){?>            <li class="nav-item">              <a                class="nav-link"                title="<?php echo trans('login_topo');?>
+"                href="<?php echo gera_link(config('login_topo'),true);?>
+"                data-menu-id="<?php echo $_smarty_tpl->tpl_vars['menu']->value->Nome_url;?>
+"              >                <?php echo trans('login_topo');?>
+              </a>            </li>            <?php }?>            <?php if (config('experimente_link')){?>            <li class="nav-item">              <a                class="nav-link fw-700 text-secondary"                title="<?php echo trans('experimente_topo');?>
+"                href="<?php echo gera_link(config('experimente_link'),true);?>
+"                data-menu-id="<?php echo $_smarty_tpl->tpl_vars['menu']->value->Nome_url;?>
+"              >                <?php echo trans('experimente_topo');?>
+              </a>            </li>            <?php }?>          </ul>        </div>        <div class="col-lg-auto">          <div class="align-center">            <?php $_smarty_tpl->tpl_vars['linguagens'] = new Smarty_variable(opcoes_linguagens(linguagens_disponiveis(null,true)), null, 0);?>            <form action="<?php echo $_smarty_tpl->tpl_vars['app']->value->Url_cliente_linguagem;?>
 " method="post">              <div                class="dropdown no-animate dropdown-select cursor-pointer dropdown-linguagem"                id="filtro-ordenacao"              >                <div                  class="title fz-14 fw-800 dropdown-toggle simple-arrow arrow-left"                  data-toggle="dropdown"                >                  <div class="dropdown-selected d-inline-block va-middle"></div>                </div>                <div class="dropdown-menu dropdown-menu-right cursor-pointer bg-white">                  <?php  $_smarty_tpl->tpl_vars['linguagem'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['linguagem']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['linguagens']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['linguagem']->key => $_smarty_tpl->tpl_vars['linguagem']->value){

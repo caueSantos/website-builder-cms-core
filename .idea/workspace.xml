@@ -1,7 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="443969d9-14a4-453f-b843-daf88f770da4" name="Default Changelist" comment="" />
+    <list default="true" id="443969d9-14a4-453f-b843-daf88f770da4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/core/assets/hubvet/site/imagens/bg-carreira.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/assets/hubvet/site/imagens/hubvet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/assets/logos/hubvet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/00ceee5b1c012899ffa1231a9566ffe1440c25ee.string.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/09206a96cb723cc2d9d8cca9bcdecba21c7bbae5.file.sobre-titulo.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/0940b63b90f2b6219457e1626ef2b3c214c20050.file.sobre-missao.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/13b2cc0f820df23e7e071e6610f7035625ff6b0f.file.trabalhe-conosco.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/18f309ebc789d28fa8579d41d0b66e6fd89f43a9.file.lista.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/1e64c29e92ccf52049061b3e9e886bfa93da2ac5.file.materiais-horizontal-secao.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/2cb21b834f03911b79ef27cf29d58837379d8018.file.carreira-proposta.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/3b48f0d13177b1735046d977d5f43f1e4a664900.string.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/3ea53d6ae07cd0e7d2cbcf0e33307d18cf06977d.file.lista.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/4d88440fe705453a60c554a4e33e0bbe94187d1d.string.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/4d8edbc7df6a80131c0b35f3695a7c2eeec4029d.file.carreira.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/68e3532ef7ef6f3de56bd090b959fceddfbf5652.file.sobre-titulo.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/79149b2791620f65774207c3f2ef1c467c471b61.file.interna.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/7ca1d9a88284150b70c35aa63b03d50e01fec546.string.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/8d84072692de6ec675063ed0bee154f7a07742ca.file.form_trabalhe_conosco.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/923e14ce132115b08437f05b7f81151edf914101.file.curriculo.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/98f4a90cacfebf0a33614681ca82a5cb56592512.file.carreira-parte.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/9fbc0df7c21d83f22785f521e0e95752e4b13eb3.file.materiais-horizontal-secao-form.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/a47d863a3ccf21b78c5c75b2e6d482ecb34a6e0f.file.sobre-missao.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/a703d1d53d5f0ac366f19754ddfdf4be32688384.file.sobre-linha.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/b20f3f7bc0caebea831e779382c2fdf75a4ed8d9.file.carreira-titulo.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/b42572e5b2229351d02ecd3183068d004abfa2c6.file.sobre-jornada.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/ba18077784ebede08088e788c61c6671b597126d.file.interna.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/c1dfd96eea8cc2b62785275bca38ac261256e278.string.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/c4b96e323c45ca299f5d71a9734c072fbf9f39af.file.video-aspect.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/c55d6798b121703f49a597495411e76b59e11adb.file.formulario.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/d5d2cfcd00d7293e54a205a942732792b7b62c75.file.sobre-jornada.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/d9eb4daab93c3e666d4cf027cd6471839f4b950c.string.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/f3ddea108f52b62aac80ad539e86df38508f39f6.file.form_trabalhe_conosco.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/compiled/fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f.string.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/carreira/carreira-parte.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/carreira/carreira-proposta.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/carreira/carreira-titulo.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/carreira/form_trabalhe_conosco.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/carreira/formulario.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/carreira/interna/interna.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/carreira/interna/titulo.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/carreira/lista.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/global/forms/materiais-horizontal-secao-form.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/global/materiais-horizontal-secao.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/sobre/sobre-linha.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/sobre/sobre-titulo.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/carreira.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/componentes/video-aspect.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/arquivos/hubvet_site/Curriculo_-_Caue_Santos_D.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/arquivos/hubvet_site/Curriculo_-_Elaine_M_Silva.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/img/hubvet_site/10_vagas_2464.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/img/hubvet_site/11_vagas_6937.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/img/hubvet_site/1_carreira_parte_2554.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/img/hubvet_site/21_vagas_8444.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/img/hubvet_site/22_vagas_14903.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/img/hubvet_site/5_vagas_4990.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/img/hubvet_site/6_vagas_14263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/img/hubvet_site/7_vagas_12015.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/img/hubvet_site/8_vagas_793.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painel/img/hubvet_site/9_vagas_2417.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/app_unico/config/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/app_unico/config/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/assets/hubvet/site/css/lands.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/assets/hubvet/site/css/lands.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/assets/hubvet/site/imagens/zehimoveis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/assets/hubvet/site/js/lands.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/assets/hubvet/site/js/lands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/common/core/lands_core.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/common/core/lands_core.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/common/modules/post/controllers/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/common/modules/post/controllers/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/01a83ac8bc64603a8a51d07d9c163ed874408f8e.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/01a83ac8bc64603a8a51d07d9c163ed874408f8e.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/022180d7818bade987631938c9cdc98d2f997b4c.file.materiais-lista.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/022180d7818bade987631938c9cdc98d2f997b4c.file.materiais-lista.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/038f8198fac5066e2c2220410fbd823ae6a3d3ce.file.page_not_found.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/038f8198fac5066e2c2220410fbd823ae6a3d3ce.file.page_not_found.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/0cc4e5d8dffd62865e91971ce3bce35f7654ffca.file.equipe.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/0cc4e5d8dffd62865e91971ce3bce35f7654ffca.file.equipe.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/0d02d8c6ff855faf31502bff9e672f4ffba8b061.file.topo.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/0d02d8c6ff855faf31502bff9e672f4ffba8b061.file.topo.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/124f36a104ce20b2d865e64d6a1eaba8cffb2dd3.file.scripts.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/124f36a104ce20b2d865e64d6a1eaba8cffb2dd3.file.scripts.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/200877cc900a7386b97c4a2d2547d20887bff479.file.case.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/200877cc900a7386b97c4a2d2547d20887bff479.file.case.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/21521b9021564f91f431fe54913bc9838a193650.file.head_interna.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/21521b9021564f91f431fe54913bc9838a193650.file.head_interna.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/22f64b396420d5c1f0a79b9a23976d273c841ebe.file.contato.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/22f64b396420d5c1f0a79b9a23976d273c841ebe.file.contato.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/293cf84d7633c5bf9597417e5d7ca60e6625dfb3.file.form_busca_ajuda.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/293cf84d7633c5bf9597417e5d7ca60e6625dfb3.file.form_busca_ajuda.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/2d4219a2ba9f14f7a466c486b0d8cdb36c613874.file.contato.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/2d4219a2ba9f14f7a466c486b0d8cdb36c613874.file.contato.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/2e3f1157723fd6af19b5f9df607994f00730537a.file.perguntas.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/2e3f1157723fd6af19b5f9df607994f00730537a.file.perguntas.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/2f0cc32b8e330a5e9a6ab95e9545630ca7a80e06.file.imagem_aspect.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/2f0cc32b8e330a5e9a6ab95e9545630ca7a80e06.file.imagem_aspect.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/34ae5aca4a73425fac5b945e13308cbe83d60a86.file.styles.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/34ae5aca4a73425fac5b945e13308cbe83d60a86.file.styles.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/356a192b7913b04c54574d18c28d46e6395428ab.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/356a192b7913b04c54574d18c28d46e6395428ab.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/35b5f54de118845199a5379e5b3eed0894dbe6a6.file.sobre.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/35b5f54de118845199a5379e5b3eed0894dbe6a6.file.sobre.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/4360baeee61b42273e3f5e864ce36bb57ffe55b5.file.parceiros-lista.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/4360baeee61b42273e3f5e864ce36bb57ffe55b5.file.parceiros-lista.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/45a902cbdf36ba9aa40d24f68310250ffc29cc5f.file.destaque.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/45a902cbdf36ba9aa40d24f68310250ffc29cc5f.file.destaque.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/4f1a1bcd27b665c41ac1f2d7cc71f46dccf775f4.file.banner.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/4f1a1bcd27b665c41ac1f2d7cc71f46dccf775f4.file.banner.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/509de116c7e49f1be63e90271ef4d2e253752d70.file.cases-lista.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/509de116c7e49f1be63e90271ef4d2e253752d70.file.cases-lista.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/527c133925c65f6f2a7af6d9fcb65f83614dc041.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/527c133925c65f6f2a7af6d9fcb65f83614dc041.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/5629212892a21f99fba8d9a843290e2d0255c780.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/5629212892a21f99fba8d9a843290e2d0255c780.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/59331318e96ec0842ac25a461a9ed91d4dda62cb.file.oferecer.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/59331318e96ec0842ac25a461a9ed91d4dda62cb.file.oferecer.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/59a38463ba346d42eaed9087cceb4d1dc3b59553.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/59a38463ba346d42eaed9087cceb4d1dc3b59553.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/5c8c6226a4075d3454721c8746837b792131c4da.file.modais.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/5c8c6226a4075d3454721c8746837b792131c4da.file.modais.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/5d243e8fa11e63014c0c34ba81dfe394f2c85db5.file.form-interessado.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/5d243e8fa11e63014c0c34ba81dfe394f2c85db5.file.form-interessado.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/639c48ee2216de54027920d034fb1a097ebc1950.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/639c48ee2216de54027920d034fb1a097ebc1950.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/67cff1fb516ac1c686a59cb3f747f8ad481c6335.file.planos.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/67cff1fb516ac1c686a59cb3f747f8ad481c6335.file.planos.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/6a0c8820d21524045c6a8e4c6f4250257bd34d92.file.perguntas.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/6a0c8820d21524045c6a8e4c6f4250257bd34d92.file.perguntas.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/6b3fdd9bc4b6717e19e7ddbd45f7148582345e37.file.citacao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/6b3fdd9bc4b6717e19e7ddbd45f7148582345e37.file.citacao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/71470d45ac8b7447b65cc1a278d25309af8ca40e.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/71470d45ac8b7447b65cc1a278d25309af8ca40e.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/723ecb1414c775e7e1dcaf0333eacc20dc90bd23.file.base.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/723ecb1414c775e7e1dcaf0333eacc20dc90bd23.file.base.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/7268ce79d6bdae6a7ad9167e3651f450607854d5.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/7268ce79d6bdae6a7ad9167e3651f450607854d5.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/733eeb7caea1ca7374d1ad5b691d5a436da459b5.file.contato.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/733eeb7caea1ca7374d1ad5b691d5a436da459b5.file.contato.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/736054823045db1f64b54eb23cbbfe8bbf6b63cd.file.layout.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/736054823045db1f64b54eb23cbbfe8bbf6b63cd.file.layout.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/7505d64a54e061b7acd54ccd58b49dc43500b635.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/7505d64a54e061b7acd54ccd58b49dc43500b635.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/75c78da42b57df0720231e748218101643ebbe2a.file.visao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/75c78da42b57df0720231e748218101643ebbe2a.file.visao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/769facd43262b83096c9aeacd242f9d54be68a8d.file.central-de-ajuda.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/769facd43262b83096c9aeacd242f9d54be68a8d.file.central-de-ajuda.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/76da25a9c6e0b412d8788821f99e35866def27f5.file.parceiros-depoimentos.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/76da25a9c6e0b412d8788821f99e35866def27f5.file.parceiros-depoimentos.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/7794c84c173499a14c63b22b336b0a08787c1b09.file.funcionalidades-secao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/7794c84c173499a14c63b22b336b0a08787c1b09.file.funcionalidades-secao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/7820464c19b73ce35f827f8d678ed0ebf4a7e0be.file.sobre-referencia.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/7820464c19b73ce35f827f8d678ed0ebf4a7e0be.file.sobre-referencia.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/7d2fbc01ec80cecf74f3ec1dbfa3cf235214f825.file.problemas-secao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/7d2fbc01ec80cecf74f3ec1dbfa3cf235214f825.file.problemas-secao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/8177356af7e69388bd4ac95db61588ad51e2e953.file.js_templates.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/8177356af7e69388bd4ac95db61588ad51e2e953.file.js_templates.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/84c49fb7e0a975255c05d964e6dc17a5526c6971.file.fluxo.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/84c49fb7e0a975255c05d964e6dc17a5526c6971.file.fluxo.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/872bd2bb2b9848f9807f28676a29ee35eccaf740.file.mensagens.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/872bd2bb2b9848f9807f28676a29ee35eccaf740.file.mensagens.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/89f69c581acc751062a26f380c20072e914d9619.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/89f69c581acc751062a26f380c20072e914d9619.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/8cbaedc8a35ae08c4ee9da8724ba09e095f78366.file.sobre-carreira.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/8cbaedc8a35ae08c4ee9da8724ba09e095f78366.file.sobre-carreira.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/8f339eab5d09d47757f6b299c36b728105c6752e.file.funcionalidades.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/8f339eab5d09d47757f6b299c36b728105c6752e.file.funcionalidades.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/92174df1270b55a909dcf8605b7d175d5591fd49.file.paginacao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/92174df1270b55a909dcf8605b7d175d5591fd49.file.paginacao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/9563e7496df3f5a305c096015ca76d244abc6b80.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/9563e7496df3f5a305c096015ca76d244abc6b80.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/997fdca48c90d67fdb57a1cc59bb8d84f423b526.file.creditos-secao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/997fdca48c90d67fdb57a1cc59bb8d84f423b526.file.creditos-secao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/9a2062f83747326b7cd824660940563bd41ace49.file.planos-header.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/9a2062f83747326b7cd824660940563bd41ace49.file.planos-header.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/9c8fb2c7a4b2be4bbf95a61b9e71ebf8b807a78b.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/9c8fb2c7a4b2be4bbf95a61b9e71ebf8b807a78b.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/9daa9e54159a7caf98416a3b5246b57ba50efdd4.file.rodape.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/9daa9e54159a7caf98416a3b5246b57ba50efdd4.file.rodape.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/a28f4cb348d5e435aa8ca3b685c21a16abfda753.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/a28f4cb348d5e435aa8ca3b685c21a16abfda753.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/abe6046308aee8f13a09007e816172aa4549b962.file.gestao-secao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/abe6046308aee8f13a09007e816172aa4549b962.file.gestao-secao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/ace230b7d71dda1812194815b63d67b30dacfddd.file.materiais.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/ace230b7d71dda1812194815b63d67b30dacfddd.file.materiais.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/b5742bac258c95c97b1fbec30c301877b93c3e28.file.experimente-secao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/b5742bac258c95c97b1fbec30c301877b93c3e28.file.experimente-secao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/bf160cf203842d7e15d194c340aba2639c51b093.file.materiais.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/bf160cf203842d7e15d194c340aba2639c51b093.file.materiais.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/c1578c781e8cf66350041a00dda15b5a15a68972.file.funcionalidades-lista.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/c1578c781e8cf66350041a00dda15b5a15a68972.file.funcionalidades-lista.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/c1bd090b550c0e2fd53fe1ba617d117023e0ac87.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/c1bd090b550c0e2fd53fe1ba617d117023e0ac87.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/c4b243f1ab4ce65b258ee14086ddc5a375092107.file.banner.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/c4b243f1ab4ce65b258ee14086ddc5a375092107.file.banner.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/cb071bd1a7d255d888473f50d7d763ae82fc7561.file.sweetalert.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/cb071bd1a7d255d888473f50d7d763ae82fc7561.file.sweetalert.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/ce0b1dc2e67bfb309a80ed913ecca7c7fa7abd14.file.descricao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/ce0b1dc2e67bfb309a80ed913ecca7c7fa7abd14.file.descricao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/d2ff90f4b14c2dba4a6171c470a6eb98b839ff72.file.cases.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/d2ff90f4b14c2dba4a6171c470a6eb98b839ff72.file.cases.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/d4486aa5dba508ab83fc5a3cc706af22c8053b70.file.pesquisa.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/d4486aa5dba508ab83fc5a3cc706af22c8053b70.file.pesquisa.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/d46e6644154e0e168d61092e1178506c5f511986.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/d46e6644154e0e168d61092e1178506c5f511986.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/d5fda1100f4534565f01aaa9c87c0191c51d7e4a.file.form_contato.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/d5fda1100f4534565f01aaa9c87c0191c51d7e4a.file.form_contato.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/da39a3ee5e6b4b0d3255bfef95601890afd80709.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/da39a3ee5e6b4b0d3255bfef95601890afd80709.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/db51a55c66a3bfe34ac76cab2b4b609732321ded.file.contato.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/db51a55c66a3bfe34ac76cab2b4b609732321ded.file.contato.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/dd11bbc52a381f893bc89a1a98cac84b6384846b.file.redes_sociais_lista.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/dd11bbc52a381f893bc89a1a98cac84b6384846b.file.redes_sociais_lista.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/dd736b3a79d224e90c320a5723b69214e63fc35d.file.popup.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/dd736b3a79d224e90c320a5723b69214e63fc35d.file.popup.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/dd7d5710acaf71f840f58643e2a2813cca3be4c7.file.meta_tags.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/dd7d5710acaf71f840f58643e2a2813cca3be4c7.file.meta_tags.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/deb72c14d81a2f5ff82d00537b536516fc48312e.file.sobre.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/deb72c14d81a2f5ff82d00537b536516fc48312e.file.sobre.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/e0c053391766361d99071593a8dbff6999cca6c0.file.duvidas-secao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/e0c053391766361d99071593a8dbff6999cca6c0.file.duvidas-secao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/e0d5ea72c3bef86ad277bc273903fe4eb2bb7966.file.sobre-mim.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/e0d5ea72c3bef86ad277bc273903fe4eb2bb7966.file.sobre-mim.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/e8d8f521fc78e444579c00feaefa1ba47ce0ded4.file.historia-secao.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/e8d8f521fc78e444579c00feaefa1ba47ce0ded4.file.historia-secao.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/edfc48a33c024f421577bcb1214712429d41975f.file.dados_contato.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/edfc48a33c024f421577bcb1214712429d41975f.file.dados_contato.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/eed0679b28e1f02fe50a346db8f8167cd7f227f3.file.banner.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/eed0679b28e1f02fe50a346db8f8167cd7f227f3.file.banner.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/f10a5a58d87f1e7e1d9a49ea5842176a4bdbabff.file.funcionalidades.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/f10a5a58d87f1e7e1d9a49ea5842176a4bdbabff.file.funcionalidades.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/f337a3336eb9e5fc38abf1bcdb4cbe182e2aed8d.file.inicio.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/f337a3336eb9e5fc38abf1bcdb4cbe182e2aed8d.file.inicio.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/f389a908739f0cda811850925bcf3ce22abfdd5c.file.planos-lista.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/f389a908739f0cda811850925bcf3ce22abfdd5c.file.planos-lista.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/f3ad2a7e14bb9fc99023758f839d72eefb278313.string.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/f3ad2a7e14bb9fc99023758f839d72eefb278313.string.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/f46cd7c0561c0a68d5b92276025b2388f21c654d.file.controle.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/f46cd7c0561c0a68d5b92276025b2388f21c654d.file.controle.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/fa9241a3f6e091a45d4679e7a836c37ee02f18de.file.banner.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/fa9241a3f6e091a45d4679e7a836c37ee02f18de.file.banner.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/faf7d8798c99de2c5618c3ff602d0fbf88e0c6b8.file.menu.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/faf7d8798c99de2c5618c3ff602d0fbf88e0c6b8.file.menu.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/compiled/fed1ba42ec66015ac4290e110360328cd8540ded.file.solucoes.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/compiled/fed1ba42ec66015ac4290e110360328cd8540ded.file.solucoes.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/ajuda/perguntas.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/ajuda/perguntas.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/cases/cases-lista.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/cases/cases-lista.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/contato/contato.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/contato/contato.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/contato/form_contato.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/contato/form_contato.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/global/experimente-secao.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/global/experimente-secao.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/global/gestao-secao.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/global/gestao-secao.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/global/rodape.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/global/rodape.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/global/topo.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/global/topo.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/sobre/equipe.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/sobre/equipe.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/sobre/sobre-carreira.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/sobre/sobre-missao.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/sobre/sobre-mim.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/sobre/sobre-referencia.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/blocos/sobre/sobre-jornada.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/central-de-ajuda.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/central-de-ajuda.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/contato.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/contato.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/inicio.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/inicio.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/materiais.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/materiais.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/producao/hubvet/site/sobre.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/producao/hubvet/site/sobre.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db_core.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/db_core.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/db_site.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/db_site.sql" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,17 +210,21 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\assets\hubvet\site\imagens" />
-      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\global" />
-      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site" />
-      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\planos" />
-      <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\solucoes" />
+      <recent name="D:\Dev\Install\xampp56\htdocs\hubvet\core\assets\hubvet\site\imagens" />
+      <recent name="D:\Dev\Install\xampp56\htdocs\hubvet\core\assets\logos" />
+      <recent name="D:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\global" />
+      <recent name="D:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\carreira\interna" />
+      <recent name="D:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\carreira\interna" />
+      <recent name="D:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\carreira" />
+      <recent name="D:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\global" />
       <recent name="F:\Dev\Install\xampp56\htdocs\hubvet\core\templates\producao\hubvet\site\blocos\funcionalidades" />
     </key>
   </component>
@@ -80,11 +258,35 @@
       <workItem from="1611550470805" duration="1225000" />
       <workItem from="1611589943947" duration="645000" />
       <workItem from="1611633954045" duration="5555000" />
+      <workItem from="1611894365483" duration="994000" />
+      <workItem from="1612031280228" duration="718000" />
+      <workItem from="1612058001769" duration="2034000" />
+      <workItem from="1612067382203" duration="735000" />
+      <workItem from="1612068143107" duration="64000" />
+      <workItem from="1612068217746" duration="18000" />
+      <workItem from="1612068272815" duration="171000" />
+      <workItem from="1612068481758" duration="50000" />
+      <workItem from="1612068543713" duration="1557000" />
+      <workItem from="1612070127134" duration="578000" />
+      <workItem from="1612070765956" duration="14472000" />
+      <workItem from="1612219597379" duration="31551000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

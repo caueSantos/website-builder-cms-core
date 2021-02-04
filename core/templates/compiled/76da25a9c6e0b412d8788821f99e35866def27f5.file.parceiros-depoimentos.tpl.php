@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 03:05:47
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-04 02:58:44
          compiled from "core\templates\producao\hubvet\site\blocos\parceiros\parceiros-depoimentos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:21525600fa32b0fd702-93791492%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:919601b7f04b19406-44248140%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '21525600fa32b0fd702-93791492',
+  'nocache_hash' => '919601b7f04b19406-44248140',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_600fa32b135ab6_42679063',
+  'unifunc' => 'content_601b7f04b4f639_29103678',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_600fa32b135ab6_42679063')) {function content_600fa32b135ab6_42679063($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['parceiros_depoimentos']->value[0]){?>
+<?php if ($_valid && !is_callable('content_601b7f04b4f639_29103678')) {function content_601b7f04b4f639_29103678($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['parceiros_depoimentos']->value[0]){?>
 <section class="parceiros-lista pt-40 pb-20 pt-md-80 pb-md-80 bg-body-light">
 
   <div class="container setas-centro">

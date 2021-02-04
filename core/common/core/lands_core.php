@@ -69,7 +69,7 @@
 			$this->verifica_seguranca();
 			$this->verifica_htaccess();
 
-			if ($this->mbc->tabelaexiste('traducao')) {
+			if ($this->mbc && $this->mbc->tabelaexiste('traducao')) {
 
 				$this->app->Traducao = new StdClass();
 				$con_trad = $this->mbc->executa_sql('select * from traducao');
@@ -80,7 +80,7 @@
 
 			}
 
-			if ($this->mbc->tabelaexiste('configs')) {
+			if ($this->mbc && $this->mbc->tabelaexiste('configs')) {
 
 				$this->app->Site_config = new StdClass();
 				$con_trad = $this->mbc->executa_sql('select * from configs');
@@ -97,6 +97,7 @@
 					$this->app->Intl = $linguagens[$this->app->Linguagem_banco_sel];
 				}
 			}
+
 
 			//      ver('parou os sites');
 			if (is_lands() && $this->app->Lands_id != 'config') {
@@ -999,10 +1000,12 @@
 		 */
 		function conecta_mbc($id_conexao = null, $primeira_conexao = false)
 		{
-
+//			/error_reporting(E_ALL);
 			if (isset($id_conexao)) {
+
 				//utilizada para o metodo load_data(consultas_etc)
 				$con = $this->model_banco->executa_sql("select * from conexoes where Id_int =$id_conexao");
+
 			} else {
 				//  die('sem id da conexao');
 				//utilizada nos metodos de post, onde não há o Id da conexao
@@ -1024,6 +1027,7 @@
 					$this->mbc->seta_idioma('pt_BR');
 				}
 			} else {
+
 				$this->mbc = $this->load->model('model_banco_cliente', 'mbc', $this->dados_conexao);
 				$this->mbc->db = $this->load->database($this->dados_conexao, TRUE);
 				$this->mbc->seta_idioma('pt_BR');

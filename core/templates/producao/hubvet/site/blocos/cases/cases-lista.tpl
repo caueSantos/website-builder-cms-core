@@ -33,7 +33,7 @@
 
         </div>
 
-        <div class="row mt-40">
+        <div class="row mt-50">
 
           {foreach from=$cases item=case}
 
@@ -86,6 +86,15 @@
 
           {/foreach}
 
+        </div>
+
+        <div class="text-center mt-40">
+          <a
+            target="_blank" href="{gera_link(config('cases_ver_mais_link'), true)}"
+            class="btn-lands btn-lg btn-primary pl-md-50 pr-md-50"
+          >
+            {trans('ver_mais')}
+          </a>
         </div>
 
       </div>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 02:35:53
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-04 02:58:44
          compiled from "core\templates\producao\hubvet\site\componentes\popup.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:24279600f9c29f2c251-19561596%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:14724601b7f04b6c0d5-79915093%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '24279600f9c29f2c251-19561596',
+  'nocache_hash' => '14724601b7f04b6c0d5-79915093',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_600f9c2a04f7a1_64769505',
+  'unifunc' => 'content_601b7f04bc77e0_18086769',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_600f9c2a04f7a1_64769505')) {function content_600f9c2a04f7a1_64769505($_smarty_tpl) {?><?php  $_smarty_tpl->tpl_vars['alerta'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['alerta']->_loop = false;
+<?php if ($_valid && !is_callable('content_601b7f04bc77e0_18086769')) {function content_601b7f04bc77e0_18086769($_smarty_tpl) {?><?php  $_smarty_tpl->tpl_vars['alerta'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['alerta']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['popup']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['alerta']->key => $_smarty_tpl->tpl_vars['alerta']->value){
 $_smarty_tpl->tpl_vars['alerta']->_loop = true;

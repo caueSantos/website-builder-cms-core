@@ -24,14 +24,19 @@
 		 */
 		public function __construct()
 		{
+
 			parent::__construct();
 //        $this->load->helper('language');
 //        $this->load->language('welcome');
+
 			$this->load->helper('lands');
+
 			$this->load->helper('landing');
+
 //        $this->load->helper('tradutor');
 			$_REQUEST['data_atual'] = date('Y-m-d');
 //        $mail->CharSet = 'UTF-8';
+
 			header('Content-Type: text/html; charset=UTF-8');
 			$this->load->model('model_smarty');
 			if (is_lands()) {
@@ -39,6 +44,7 @@
 			}
 
 			$this->output->enable_profiler(FALSE);
+
 		}
 
 		function index()
@@ -1860,12 +1866,15 @@
 					echo '<div id="message">' . $this->upload->display_errors() . '</div>';
 				} else {
 
-					$this->conecta_mbc($this->app->Conexoes_for);
+					//$this->conecta_mbc($this->app->Conexoes_for);
+					//ver('asdsa');
+
 					$curriculo = $_POST;
 					$curriculo['Curriculo_arq'] = "<img rel='Visualizar' src='imagens/visualizar_geral.png' />";
 					if ($this->mbc->db_insert('curriculos', $curriculo)) {
 						$ultimo_currico = $this->mbc->executa_sql("select * from curriculos order by Id_int desc;");
-					};
+					}
+
 					$id = $ultimo_currico[0]->Id_int;
 					$data = array('upload_data' => $this->upload->data());
 					$arquivo['Nome_txf'] = preg_replace("/&([a-z])[a-z]+;/i", "$1", htmlentities($data['upload_data']['file_name']));
@@ -1877,7 +1886,7 @@
 					$arquivo['Tabela_con'] = 'curriculos';
 					$arquivo['Data_int'] = time();
 
-					$this->conecta_mbc($this->app->Conexoes_for);
+					//$this->conecta_mbc($this->app->Conexoes_for);
 					$this->mbc->db_insert('arquivos', $arquivo);
 
 

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 02:06:53
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-04 02:57:36
          compiled from "core\templates\producao\hubvet\site\blocos\global\duvidas-secao.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7368600f955de94455-97558032%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:13667601b7ec0c52827-84290510%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '7368600f955de94455-97558032',
+  'nocache_hash' => '13667601b7ec0c52827-84290510',
   'function' => 
   array (
   ),
@@ -25,9 +25,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_600f955dedc569_14887050',
+  'unifunc' => 'content_601b7ec0c95af7_68534487',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_600f955dedc569_14887050')) {function content_600f955dedc569_14887050($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['duvidas_secao']->value[0]){?><?php $_smarty_tpl->tpl_vars['duvidas_secao'] = new Smarty_variable(junta_registros($_smarty_tpl->tpl_vars['duvidas_secao']->value,'Telefone_sel',$_smarty_tpl->tpl_vars['telefones']->value,'Numero_txf','Telefone'), null, 0);?><?php $_smarty_tpl->tpl_vars['duvida'] = new Smarty_variable($_smarty_tpl->tpl_vars['duvidas_secao']->value[0], null, 0);?><section class="duvidas-secao bg-dark-grey text-white pt-40 pb-40 pt-md-70 pb-md-70">  <div class="container">    <div class="row justify-content-center">      <div class="col-12 col-md-8 text-center">        <h1 class="title fz-24">          <?php echo $_smarty_tpl->tpl_vars['duvida']->value->Titulo_txa;?>
+<?php if ($_valid && !is_callable('content_601b7ec0c95af7_68534487')) {function content_601b7ec0c95af7_68534487($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['duvidas_secao']->value[0]){?><?php $_smarty_tpl->tpl_vars['duvidas_secao'] = new Smarty_variable(junta_registros($_smarty_tpl->tpl_vars['duvidas_secao']->value,'Telefone_sel',$_smarty_tpl->tpl_vars['telefones']->value,'Numero_txf','Telefone'), null, 0);?><?php $_smarty_tpl->tpl_vars['duvida'] = new Smarty_variable($_smarty_tpl->tpl_vars['duvidas_secao']->value[0], null, 0);?><section class="duvidas-secao bg-dark-grey text-white pt-40 pb-40 pt-md-70 pb-md-70">  <div class="container">    <div class="row justify-content-center">      <div class="col-12 col-md-8 text-center">        <h1 class="title fz-24">          <?php echo $_smarty_tpl->tpl_vars['duvida']->value->Titulo_txa;?>
         </h1>        <div class="row justify-content-center mt-30">          <?php if ($_smarty_tpl->tpl_vars['duvida']->value->Imagens[0]){?>          <div class="col-md-5">            <figure class="imagem">              <img class="pe-none img-fluid" src="<?php echo $_smarty_tpl->tpl_vars['painel']->value;?>
 <?php echo $_smarty_tpl->tpl_vars['duvida']->value->Imagens[0]->Caminho_txf;?>
 "                   alt="<?php echo strip_tags($_smarty_tpl->tpl_vars['duvida']->value->Titulo_txa);?>

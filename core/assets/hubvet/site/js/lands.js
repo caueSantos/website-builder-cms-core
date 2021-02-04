@@ -24,7 +24,7 @@ $(function () {
       if (window.menuTopoLocal !== itemType) {
         var $menu = $('#topo-full-menu'),
           $all_menu_group = $(`[data-menu]`, $menu);
-        $menu.slideUp(100, function () {
+        $menu.slideUp(300, function () {
           $all_menu_group.hide(0);
         });
         window.menuTopoLocal = null;

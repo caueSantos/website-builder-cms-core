@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 03:28:47
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-04 01:50:20
          compiled from "core\templates\producao\hubvet\site\ajax\perguntas.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10407600fa88f135c81-14421286%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:10686601b6efc1530b6-65876887%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10407600fa88f135c81-14421286',
+  'nocache_hash' => '10686601b6efc1530b6-65876887',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_600fa88f15c1f4_89134427',
+  'unifunc' => 'content_601b6efc174432_41896853',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_600fa88f15c1f4_89134427')) {function content_600fa88f15c1f4_89134427($_smarty_tpl) {?><div id="perguntas-ajax">  <div id="accordion-perguntas">    <?php  $_smarty_tpl->tpl_vars['pergunta'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['pergunta']->_loop = false;
+<?php if ($_valid && !is_callable('content_601b6efc174432_41896853')) {function content_601b6efc174432_41896853($_smarty_tpl) {?><div id="perguntas-ajax">  <div id="accordion-perguntas">    <?php  $_smarty_tpl->tpl_vars['pergunta'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['pergunta']->_loop = false;
  $_smarty_tpl->tpl_vars['key'] = new Smarty_Variable;
  $_from = $_smarty_tpl->tpl_vars['perguntas']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['pergunta']->key => $_smarty_tpl->tpl_vars['pergunta']->value){

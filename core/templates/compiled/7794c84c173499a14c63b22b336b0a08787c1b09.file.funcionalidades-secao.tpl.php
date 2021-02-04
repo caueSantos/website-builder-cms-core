@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 02:35:53
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-04 02:58:44
          compiled from "core\templates\producao\hubvet\site\blocos\inicio\funcionalidades-secao.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:11800600f9c29d9fd63-87117239%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:1841601b7f04a65628-71769300%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11800600f9c29d9fd63-87117239',
+  'nocache_hash' => '1841601b7f04a65628-71769300',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_600f9c29defc36_98817023',
+  'unifunc' => 'content_601b7f04a97cd2_10760111',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_600f9c29defc36_98817023')) {function content_600f9c29defc36_98817023($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['funcionalidades']->value[0]){?>
+<?php if ($_valid && !is_callable('content_601b7f04a97cd2_10760111')) {function content_601b7f04a97cd2_10760111($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['funcionalidades']->value[0]){?>
 <section class="funcionalidades pt-40 pt-md-70 pb-md-110 pb-80">
 
   <div class="container">

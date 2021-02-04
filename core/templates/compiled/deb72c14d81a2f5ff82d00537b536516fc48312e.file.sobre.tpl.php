@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 02:35:53
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-04 02:58:44
          compiled from "core\templates\producao\hubvet\site\blocos\inicio\sobre.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:24059600f9c29d628b4-66089331%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:30680601b7f04a2df38-75537085%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '24059600f9c29d628b4-66089331',
+  'nocache_hash' => '30680601b7f04a2df38-75537085',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_600f9c29d8b933_72651595',
+  'unifunc' => 'content_601b7f04a55c79_65522143',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_600f9c29d8b933_72651595')) {function content_600f9c29d8b933_72651595($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['sobre_inicio']->value[0]){?><section class="sobre-inicio bg-body-light mt-45 pt-40 pb-40 pt-md-70 pb-md-80">  <div class="bg-fake bg-body-light" style="transform: skewY(-1.8deg); top: -24px;">  </div>  <div class="container">    <div class="row">      <div class="col-12 col-md-5">        <div class="align-center">          <?php  $_smarty_tpl->tpl_vars['item'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['item']->_loop = false;
+<?php if ($_valid && !is_callable('content_601b7f04a55c79_65522143')) {function content_601b7f04a55c79_65522143($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['sobre_inicio']->value[0]){?><section class="sobre-inicio bg-body-light mt-45 pt-40 pb-40 pt-md-70 pb-md-80">  <div class="bg-fake bg-body-light" style="transform: skewY(-1.8deg); top: -24px;">  </div>  <div class="container">    <div class="row">      <div class="col-12 col-md-5">        <div class="align-center">          <?php  $_smarty_tpl->tpl_vars['item'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['item']->_loop = false;
  $_smarty_tpl->tpl_vars['key'] = new Smarty_Variable;
  $_from = $_smarty_tpl->tpl_vars['sobre_inicio']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
 foreach ($_from as $_smarty_tpl->tpl_vars['item']->key => $_smarty_tpl->tpl_vars['item']->value){

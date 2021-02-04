@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 03:28:47
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-04 01:50:20
          compiled from "core\templates\producao\hubvet\site\blocos\ajuda\base.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:10955600fa88f030f22-91028784%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:30834601b6efc03a006-05466550%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '10955600fa88f030f22-91028784',
+  'nocache_hash' => '30834601b6efc03a006-05466550',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_600fa88f0b8c54_94071552',
+  'unifunc' => 'content_601b6efc0aad05_40514136',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_600fa88f0b8c54_94071552')) {function content_600fa88f0b8c54_94071552($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['ajuda_itens']->value[0]&&$_smarty_tpl->tpl_vars['ajuda_categorias']->value[0]){?>
+<?php if ($_valid && !is_callable('content_601b6efc0aad05_40514136')) {function content_601b6efc0aad05_40514136($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['ajuda_itens']->value[0]&&$_smarty_tpl->tpl_vars['ajuda_categorias']->value[0]){?>
 <?php $_smarty_tpl->tpl_vars['ajuda_categorias'] = new Smarty_variable(junta_registros($_smarty_tpl->tpl_vars['ajuda_categorias']->value,'Nome_url',$_smarty_tpl->tpl_vars['ajuda_itens']->value,'Categoria_ajuda_sel','Itens'), null, 0);?>
 <section class="pt-50 pt-md-70 pb-md-20">
 

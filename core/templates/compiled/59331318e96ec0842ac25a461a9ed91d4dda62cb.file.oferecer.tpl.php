@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2021-01-26 03:05:46
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-04 02:58:29
          compiled from "core\templates\producao\hubvet\site\blocos\solucoes\oferecer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:13086600fa32af19531-02821676%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:30143601b7ef58e1d59-12644751%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '13086600fa32af19531-02821676',
+  'nocache_hash' => '30143601b7ef58e1d59-12644751',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_600fa32b035878_57494401',
+  'unifunc' => 'content_601b7ef5942354_64933499',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_600fa32b035878_57494401')) {function content_600fa32b035878_57494401($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['solucoes_oferecer']->value[0]){?>
+<?php if ($_valid && !is_callable('content_601b7ef5942354_64933499')) {function content_601b7ef5942354_64933499($_smarty_tpl) {?><?php if ($_smarty_tpl->tpl_vars['solucoes_oferecer']->value[0]){?>
 <?php $_smarty_tpl->tpl_vars['solucoes_oferecer'] = new Smarty_variable(junta_registros($_smarty_tpl->tpl_vars['solucoes_oferecer']->value,'Nome_url',$_smarty_tpl->tpl_vars['solucoes_oferecer_itens']->value,'Solucao_oferecer_sel','Oferecer_itens'), null, 0);?>
 <section class="solucoes-oferecer pt-40 pt-md-70 pb-md-90 pb-40 bg-body-lighter">
 

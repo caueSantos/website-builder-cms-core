@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.12, created on 2020-12-11 02:55:54
+<?php /* Smarty version Smarty-3.1.12, created on 2021-02-03 02:30:12
          compiled from "core\templates\producao\hubvet\site\forms\contato.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:78785fd2fbda6a7db6-38493146%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:12295601a26d4a97743-37420014%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '78785fd2fbda6a7db6-38493146',
+  'nocache_hash' => '12295601a26d4a97743-37420014',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.12',
-  'unifunc' => 'content_5fd2fbda87a2f0_41094253',
+  'unifunc' => 'content_601a26d4c2f4f7_24184291',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5fd2fbda87a2f0_41094253')) {function content_5fd2fbda87a2f0_41094253($_smarty_tpl) {?>    <div class="container">        <div class="row">            <div class="col-sm-12">                <div class="tabela" style="background-color: #f3f3f3; padding: 30px; margin-left: auto; margin-right: auto;">                    <table bgcolor="#ffffff" style="padding-top: 30px; width:100%">                        <tbody>                            <tr>                                <td class="linha">                                    <center>                                        <img class="teste" src="<?php echo $_smarty_tpl->tpl_vars['assets']->value;?>
+<?php if ($_valid && !is_callable('content_601a26d4c2f4f7_24184291')) {function content_601a26d4c2f4f7_24184291($_smarty_tpl) {?>    <div class="container">        <div class="row">            <div class="col-sm-12">                <div class="tabela" style="background-color: #f3f3f3; padding: 30px; margin-left: auto; margin-right: auto;">                    <table bgcolor="#ffffff" style="padding-top: 30px; width:100%">                        <tbody>                            <tr>                                <td class="linha">                                    <center>                                        <img class="teste" src="<?php echo $_smarty_tpl->tpl_vars['assets']->value;?>
 imagens/logo-cor.png" height="76" style="display: block;                                             margin-top: 0px; margin-left: auto;margin-right: auto;">                                    </center>                                    <br><br>                                    <hr style="width: 89%;">                                </td>                             </tr>                        <?php if (($_smarty_tpl->tpl_vars['post']->value['Responsavel_txf']!='')){?>                            <tr>                                <!--<td style="text-align: center"> <?php echo $_smarty_tpl->tpl_vars['post']->value['Responsavel_txf'];?>
 </td>-->                                <td style="padding-left: 50px; padding-right: 50px; padding-top: 10px; padding-bottom: 10px; font-family: tahoma; font-size: 16px;"><strong><?php echo $_smarty_tpl->tpl_vars['post']->value['Responsavel_txf'];?>
 , obrigado por entrar em contato com o Santa Rosa!</strong></td>                            </tr>                        <?php }?>                        <tr>                            <td style="padding-bottom: 10px;padding-left: 50px; padding-right: 50px; padding-top: 10px;font-family: tahoma;font-size: 14px;">                                Nós da <?php echo $_smarty_tpl->tpl_vars['cliente']->value->Fantasia_txf;?>

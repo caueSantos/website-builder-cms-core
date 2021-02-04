@@ -1,7 +1,14 @@
 {assign var='tipo' value=$tipo|default:1}
-{$paginas_dark=['cases', 'materiais']}
+{assign var='dark' value=$dark|default:'ops'}
+{$paginas_dark=['cases', 'materiais', 'central-de-ajuda', 'contato', 'carreira']}
 {$is_dark=in_array($pagina_atual, $paginas_dark)}
-<section class="experimente {if $is_dark}bg-dark-grey-2{/if} {if $tipo == 1 || $is_dark}text-white{/if} pt-70 pb-80 overflow-hidden">
+
+{if $dark !== 'ops'}
+{$is_dark = $dark}
+{/if}
+
+<section
+  class="experimente {if $is_dark && $tipo != 1}bg-dark-grey-2{/if} {if $tipo == 1 || $is_dark}text-white{/if} pt-70 pb-80 overflow-hidden">
 
   {if $tipo == 1}
   <div class="bg-fake bg-primary" style="transform: skewY(-1.8deg); top: -24px;"></div>
@@ -38,7 +45,8 @@
           </div>
 
           <div class="col-12 col-md-5 pl-md-0">
-            <button type="submit" class="btn-lands btn-lg btn-block {if $tipo == 1}btn-secondary{else}btn-primary{/if} btn-block pl-25 pr-25">
+            <button type="submit"
+                    class="btn-lands btn-lg btn-block {if $tipo == 1}btn-accent{else}btn-primary{/if} btn-block pl-25 pr-25">
               {trans('experimente_secao_botao')}
             </button>
           </div>

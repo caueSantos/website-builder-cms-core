@@ -60,8 +60,8 @@ body.internas.interna-solucoes.subinterna #topo.solto .bottom {
 }
 
 #rodape .redes-sociais .fa, #rodape .redes-sociais .fab, #rodape .redes-sociais .far {
-    font-size: 18px;
-    color: var(--secondary);
+    font-size: 22px;
+    color: #fff;
 }
 
 #rodape .redes-sociais .fa:hover, #rodape .redes-sociais .fab:hover, #rodape .redes-sociais .far:hover {
@@ -622,7 +622,7 @@ body.interna-cases .experimente {
         position: fixed;
         top: 0px;
         width: 100%;
-        z-index: 9999999;
+        z-index: 9999;
         box-shadow: rgba(0, 0, 0, 0.2) 0 -5px 20px 0px;
         transition: .15s all ease;
         background-color: rgb(255, 255, 255);
@@ -653,6 +653,10 @@ body.interna-cases .experimente {
         transition: all 0.25s ease 0s;
     }
 
+    #topo .dropdown-menu {
+        transition: none !important;
+    }
+
     #topo .logo {
         width: 8.8125rem;
     }
@@ -672,7 +676,7 @@ body.interna-cases .experimente {
         box-shadow: none;
     }
 
-    #topo.solto #menu-topo .nav-link:not(.active) {
+    #topo.solto .nav-link:not(.active) {
         color: #fff;
     }
 
@@ -696,11 +700,11 @@ body.interna-cases .experimente {
         padding: 0px;
     }
 
-    #menu-topo .nav-item + .nav-item {
+    #topo .nav-item + .nav-item {
         margin-left: 40px;
     }
 
-    #menu-topo .nav-link {
+    #topo .nav-link {
         font-size: 0.875rem;
         color: var(--text-body-secondary);
         text-align: center;
@@ -709,11 +713,11 @@ body.interna-cases .experimente {
         padding: 0;
     }
 
-    #menu-topo .nav-link:hover, #menu-topo .nav-link.active {
-        color: var(--secondary);
+    #topo .nav-link:hover, #topo .nav-link.active {
+        color: var(--secondary) !important;
     }
 
-    #menu-topo .nav-link.active {
+    #topo .nav-link.active {
         font-weight: 600;
     }
 
@@ -1042,11 +1046,12 @@ body.interna-cases .experimente {
 
 .dropzone-previews {
     text-align: center;
-    border: 1px dashed var(--primary-darker);
+    border: 1px dashed var(--text-body-secondary);
     color: var(--text-body-secondary);
-    border-radius: 0px;
+    border-radius: 8px;
     margin-bottom: 20px;
     transition: all 0.2s ease 0s;
+    padding: 0 30px;
 }
 
 .dropzone-previews:hover {
@@ -1435,6 +1440,99 @@ body.interna-cases .experimente {
     overflow-y: auto;
 }
 
-#topo-full-menu .menu-group{
+#topo-full-menu .menu-group {
     display: none;
+}
+
+.sobre-linha-tempo {
+
+}
+
+.sobre-linha-tempo .linha {
+
+}
+
+.sobre-linha-tempo .linha .ano {
+    z-index: 1;
+}
+
+.sobre-linha-tempo .linha .dot {
+    width: 22px;
+    height: 22px;
+    border-radius: 100%;
+}
+
+.sobre-linha-tempo .linha .linha-h {
+    height: 100%;
+    width: 6px;
+    top: 50%;
+    margin-top: -20px;
+    left: -8px;
+    background: #C4C4C4
+}
+
+.sobre-linha-tempo .linha .linha-conteudo:before {
+    display: block;
+    position: absolute;
+    content: '';
+    border: 14px solid transparent;
+    border-right: 14px solid var(--dark-grey);
+    left: -28px;
+    top: 50%;
+    margin-top: -14px;
+}
+
+.colaborador .img-drop {
+    background-color: #45A2B0;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center;
+    transition: .2s all ease;
+}
+
+.colaborador:hover .img-drop {
+    opacity: 0;
+}
+
+.carreira-item {
+    height: 370px;
+}
+
+.carreira-item .overlay {
+    opacity: .85;
+}
+
+.col-carreira:nth-child(3n) .carreira-item .overlay,
+.col-carreira:nth-child(3n+1) .carreira-item .overlay {
+    background: #86E9A1 !important;
+}
+
+.col-carreira:nth-child(6n+1) .carreira-item .overlay,
+.col-carreira:nth-child(6n) .carreira-item .overlay {
+    background: #45A2B0 !important;
+}
+
+.col-carreira:nth-child(3n-1) .carreira-item .overlay {
+    background: #31C3A9 !important;
+}
+
+.carreira-item .txt {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+#carreira .dropzone {
+    border: 0;
+    padding: 0;
+}
+
+#carreira .dropzone .dz-preview .dz-remove {
+    margin-top: 4px;
+}
+
+#carreira .dropzone .dz-clickable {
+    cursor: pointer;
 }
